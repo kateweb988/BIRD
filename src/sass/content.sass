@@ -1,0 +1,5224 @@
+input::-webkit-input-placeholder 
+   color: rgba(36, 36, 36, 0.3) !important
+input::-moz-placeholder
+   color: rgba(36, 36, 36, 0.3) !important
+input:-ms-input-placeholder 
+   color: rgba(36, 36, 36, 0.3) !important
+input:-moz-placeholder 
+   color: rgba(36, 36, 36, 0.3) !important
+ol 
+   padding-left: 25px
+   margin-bottom: 50px
+   li 
+      color: rgb(5, 32, 62)
+      font-size: 20px
+      font-weight: 400
+      line-height: 28.8px
+      letter-spacing: -0.48px
+      margin-bottom: 9px
+.menu-btn, .menu
+   display: none
+.box-modal__close 
+   z-index: 10
+   cursor: pointer
+   position: absolute
+   top: 30px
+   right: 30px
+   cursor: pointer
+   fill: white
+   z-index: 20
+   transition: 0.5s
+   display: flex
+   align-items: center
+   justify-content: center
+   width: 18px
+   height: 18px
+   &:hover 
+      transition: 0.5s
+      transform: rotate(90deg)
+.box-modal 
+   position: relative
+.popup-call__box 
+   position: absolute
+   top: -20rem
+   left: 50%
+   height: auto
+   margin-left: -240px
+   overflow: hidden
+   height: max-content
+   transition: 0.5s all
+   height: auto
+   box-sizing: border-box
+   position: absolute
+   width: 480px
+   background: #FFFFFF
+   border-radius: 50px
+   padding: 40px
+   .order__form
+      input 
+         border: 1px solid #E0E0E0
+         &:focus 
+            border: 1px solid $vio
+   .order__flex
+      flex-direction: column
+      input 
+         width: 100%
+   .custom-checkbox + label
+      align-items: flex-start
+      span 
+         color: rgba(5, 32, 62, 0.6)
+         font-size: 14px
+         font-weight: 400
+         line-height: 18px
+         a 
+            color: rgba(5, 32, 62, 0.6)
+            text-decoration: underline
+            &:hover 
+               color: $vio
+   .custom-checkbox + label::before
+      margin-right: 12px
+      width: 28px
+      height: 28px
+      max-width: 28px
+      box-sizing: border-box
+      border: 2px solid rgb(174, 86, 209)
+      background: rgb(255, 255, 255)
+      border-radius: 50%
+   .custom-checkbox:checked + label::before 
+      background: url(/img/check.svg) no-repeat center center
+      background-color: white
+      background-size: inherit
+.popup 
+   &__name 
+      font-weight: 700
+      font-size: 40px
+      line-height: 38px
+      text-align: center
+      color: #05203E
+      font-family: 'Museo Sans Cyrl 900'
+      margin-bottom: 30px
+   .password-wrap
+      width: 100%
+   &__back 
+      position: absolute
+      left: 42px
+      top: 51px
+      &:hover 
+         .svg 
+            path 
+               fill: $vio
+   &__sub 
+      font-weight: 600
+      font-size: 16px
+      font-family: 'Museo Sans Cyrl 700'
+      line-height: 18px
+      color: #AE56D1
+      margin-bottom: 15px
+   &__block 
+      padding: 20px
+      background: #F5F5F5
+      border-radius: 10px
+      margin-bottom: 20px
+      p 
+         font-weight: 700
+         font-family: 'Museo Sans Cyrl 900'
+         font-size: 16px
+         line-height: 18px
+         color: #05203E
+         margin-bottom: 15px
+      ul 
+         padding-left: 10px
+         li 
+            display: flex
+            align-items: flex-start
+            color: rgb(5, 32, 62)
+            font-size: 16px
+            font-weight: 400
+            letter-spacing: -0.48px
+            margin-bottom: 9px
+            &:before 
+               content: ""
+               display: inline-block
+               border-radius: 50% 
+               flex: 1 0 auto 
+               background: rgb(5, 32, 62)
+               margin-right: 10px
+               width: 4px
+               height: 4px
+               max-width: 4px
+               position: relative
+               top: 8px
+.password-wrap
+   position: relative
+   .toggle-password
+      position: absolute
+      top: 20px
+      cursor: pointer
+      right: 18px
+.menu-btn, .menu
+   display: none
+.swiper-button-next:after, .swiper-rtl .swiper-button-prev:after, .swiper-button-prev:after, .swiper-rtl .swiper-button-next:after
+   display: none
+.custom-checkbox 
+   position: absolute
+   z-index: -1
+   opacity: 0
+.custom-checkbox+label 
+   display: flex
+   align-items: center
+   user-select: none
+   font-weight: 400
+   font-size: 16px
+   line-height: 130%
+   color: #494949
+   cursor: pointer
+.custom-checkbox+label::before
+   content: ''
+   display: inline-block
+   flex-shrink: 0
+   display: flex
+   flex-grow: 0
+   background-repeat: no-repeat
+   background-position: center center
+   background-size: 8px
+   background: #FFFFFF
+   flex: 1 0 auto
+   transition: 0.2s
+   width: 20px
+   height: 20px
+   border-radius: 5px
+   border: 1px solid #e9e9e9
+   background-color: #ffffff
+   max-width: 20px
+   margin-right: 11px
+.custom-checkbox:checked+label::before 
+   background: url(/img/check2.png) no-repeat center center
+   background-size: 8px
+.swiper-pagination
+   display: flex
+   justify-content: center
+   bottom: 19px
+   position: absolute
+   z-index: 2
+.swiper-pagination-bullet
+   width: 52px
+   height: 2px
+   background-color: #ffffff
+   opacity: 0.2
+.swiper-pagination-bullet-active
+   background-color: $vio !important
+   opacity: 1
+.tabs__pane 
+   display: none
+.tabs__pane_show 
+   display: block
+.tabs__btn_active
+   color: #20252d !important
+   position: relative
+.swiper-button-next, .swiper-button-prev
+   z-index: 9
+.swiper-button-disabled
+   opacity: 0.5
+   pointer-events: none
+.bread 
+   display: flex
+   align-items: center
+   justify-content: flex-start
+   margin-bottom: 70px
+   flex-wrap: wrap
+   a, p 
+      color: rgba(255, 255, 255, 0.7)
+      font-size: 14px
+      font-weight: 400
+      line-height: 24px
+      letter-spacing: -0.4px
+      &:after 
+         content: "/"
+         display: inline-block
+         color: rgba(255, 255, 255, 0.7)
+         font-size: 14px
+         font-weight: 400
+         line-height: 24px
+         letter-spacing: -0.4px
+         margin: 0 10px
+      &:hover 
+         color: $vio
+   p:after 
+      display: none
+      color: rgba(255, 255, 255, 0.7) !important
+.mob 
+   display: none
+/* SELECT */
+.selectCF
+   margin: 0
+   padding: 0
+   display: inline-block
+   position: relative
+   color: black
+   display: flex
+   align-items: center
+   justify-content: center
+   transition: 0.5s
+   width: max-content
+   height: auto
+   background: transparent
+.selectCF li
+   list-style: none
+   cursor: pointer
+   perspective: 900px
+   -webkit-perspective: 900px
+   text-align: left
+   width: 100%
+   height: 100%
+   max-height: 100%
+   box-sizing: border-box
+.selectCF > li
+   position: relative
+   border: none
+.selectCF span
+   display: flex
+   height: auto
+   line-height: 100%
+   color: #888888
+   z-index: 1
+   align-items: center
+.selectCF .arrowCF
+   transition: .3s
+   -webkit-transition: .3s
+   width: 7px
+   height: 5px
+   text-align: center
+   vertical-align: top
+   background: url(/img/down-arrow.png) no-repeat !important
+   position: absolute
+   right: -16px
+   top: 8px
+.selectCF .titleCF
+   font-size: 16px
+   font-weight: 400
+   text-overflow: ellipsis
+   color: #000000 !important
+   white-space: nowrap
+   width: max-content !important
+   height: max-content !important
+   box-sizing: border-box
+   background: transparent !important
+.selectCF .searchCF
+   position: absolute
+   top: 3px
+   right: 0
+   z-index: -1
+@keyframes searchActive 
+   from
+      transform: rotateY(180deg) 
+   to
+      transform: rotateY(0deg)
+@-moz-keyframes searchActive 
+   from
+      transform: rotateY(180deg) 
+   to
+      transform: rotateY(0deg)
+@-webkit-keyframes searchActive 
+   from
+      -webkit-transform: rotateY(180deg) 
+   to
+      -webkit-transform: rotateY(0deg)
+.searchActive .searchCF
+   z-index: 1
+   animation: searchActive 0.3s alternate 1
+   -moz-animation: searchActive 0.3s alternate 1
+   -webkit-animation: searchActive 0.3s alternate 1
+.searchActive .titleCF
+   opacity: 0
+.selectCF .searchCF input
+   border: none !important
+   padding: 0
+   margin: 0
+   width: auto
+   height: auto
+   background: transparent
+.selectCF .searchCF input:active, .selectCF .searchCF input:focus
+   box-shadow: none !important
+   border: none !important
+   outline: none !important
+.selectCF li ul
+   display: none
+   position: absolute
+   top: 100%
+   left: 1px
+   width: 100%
+   background: grey
+   max-height: 255px
+   overflow-y: auto
+   transition: .2s
+   -webkit-transition: .2s
+   z-index: 2
+   box-sizing: border-box
+   padding-bottom: 10px
+   border-top: none
+.selectCF li ul li
+   padding: 9px 0 9px 10px
+   transition: .2s
+   -webkit-transition: .2s
+   overflow: hidden
+   text-overflow: ellipsis
+   white-space: nowrap
+   border-top: none
+   box-sizing: border-box
+   height: 40px
+   font-weight: 500
+   font-size: 16px
+   line-height: 22px
+   color: #FAFAFF
+   &:last-child
+      border-radius: 0px 0px 5px 5px
+      padding-bottom: 10px
+   &:hover 
+      color: $vio
+.onCF .arrowCF
+   transform: rotate(180deg)
+   -webkit-transform: rotate(180deg)
+@-moz-keyframes effect1 
+   from
+      transform: translateY(15px)
+      opacity: 0
+   to
+      transform: translateY(0px)
+      opacity: s1
+@-webkit-keyframes effect1 
+   from
+      -webkit-transform: translateY(15px) 
+      opacity: 0
+   to
+      -webkit-transform: translateY(0px)
+      opacity: 1
+.onCF li ul
+   display: block
+   position: absolute
+   -moz-animation: effect1 0.3s alternate 1
+   -webkit-animation: effect1 0.3s alternate 1
+   left: -6.55px
+   top: 22px
+   border-radius: 0 0 4px 4px
+   width: 100%
+   min-width: max-content
+   padding-right: 10px
+ul.info li, #event-change
+   color: #FFF
+ul.info
+   padding: 0
+   display: none
+ul.info li
+   display: inline-block
+   border-radius: 5px
+   padding: 0 5px
+.accordeon, .accordeon2
+   padding: 5px 0 30px
+   border-bottom: 1px solid #ececec
+   margin-bottom: 26px
+   width: 100%
+.accordeon__item 
+   width: 100%
+   list-style-type: none
+.accordeon__item:first-child .accordeon__button
+   margin-top: 0
+.accordeon__button, .accordeon__button2
+   width: 100%
+   text-align: left
+   border: none
+   cursor: pointer
+   position: relative
+   transition: all 0.5s ease
+   font-size: 17px
+   font-weight: 700
+   color: #282828
+   display: flex
+   justify-content: space-between
+.accordeon__button:hover, .accordeon__button2:hover
+   color: $vio
+.accordeon__button:after, .accordeon__button2:after
+   content: ""
+   position: absolute
+   right: 0px
+   background: url(img/down-arrow.png) no-repeat !important
+   width: 7px
+   left: inherit
+   height: 5px
+   top: 8px
+   bottom: inherit
+   transition: all 0.5s ease
+.accordeon__button.active:after, .accordeon__button2.active:after
+   content: ""
+   position: absolute
+   right: 0px
+   background: url(img/down-arrow.png) no-repeat !important
+   width: 7px
+   left: inherit
+   height: 5px
+   bottom: 30%
+   transition: all 0.5s ease
+   transform: rotate(180deg)
+   -webkit-transform: rotate(180deg)
+.accordeon__panel, .accordeon__panel2
+   max-height: 0
+   overflow: hidden
+   margin-left: 0
+   transition: all 0.5s ease
+.panel__text, .panel__text2
+   list-style-type: none
+   padding-top: 0px
+   max-width: 688px
+   margin-top: 30px
+.panel__info
+   font-weight: 300
+   font-size: 16px
+   line-height: 140%
+   margin-bottom: 20px
+   &:last-child
+      margin-bottom: 0
+.pag 
+   display: none
+   width: max-content
+   justify-content: center
+   margin: 25px auto 0 
+   position: relative
+   bottom: 0 !important
+   top: 0 !important
+   left: 0 !important
+   right: 0 !important
+   .swiper-pagination-bullet
+      width: 11px
+      height: 11px
+      background: rgb(230, 230, 230)
+      opacity: 1
+      margin-right: 10px !important
+      &:last-child
+         margin-right: 0 !important
+.menu-btn2
+   border: none
+   cursor: pointer
+   width: 17px
+   height: 17px
+   margin-left: 29px
+   position: relative
+   z-index: 500
+   .svg 
+      position: absolute
+      top: 0
+      left: 0
+      &:last-child
+         opacity: 0
+   &.active 
+      .svg 
+         &:first-child
+            opacity: 0
+         &:last-child
+            opacity: 1
+   &:hover 
+      .svg 
+         path 
+            stroke: $vio
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration
+   display: none
+.get 
+   &__box 
+      position: relative
+      justify-content: space-between
+      &:after 
+         content: ""
+         display: block
+         position: absolute
+         top: -40px
+         cursor: pointer
+         left: 0
+         width: 100%
+         height: 50px
+         background: transparent
+      &_2 
+         flex-wrap: wrap 
+      &_3 
+         .get__one 
+            width: 24%
+            height: 204px
+            padding: 24px
+            flex-direction: column 
+            align-items: flex-start
+            justify-content: flex-start
+            &:nth-child(n+5)
+               margin-bottom: 0
+            p 
+               transition: 0.5s
+               color: rgb(5, 32, 62)
+               font-size: 21.83px
+               font-family: 'Museo Sans Cyrl 700'
+               font-weight: 600
+               line-height: 22px
+               letter-spacing: -0.44px
+               margin-bottom: 30px
+            span 
+               color: rgb(155, 166, 178)
+               font-size: 19px
+               font-weight: 400
+               line-height: 25px
+               letter-spacing: -0.32px
+   &__one 
+      align-items: flex-start
+      padding: 17px 20px 20px 20px
+      justify-content: space-between
+      box-sizing: border-box
+      border: 2px solid rgb(240, 244, 247)
+      border-radius: 24px
+      width: 24%
+      margin-bottom: 20px
+      div 
+         span 
+            display: block
+            color: rgb(150, 168, 187)
+            font-size: 13.89px
+            font-weight: 600
+            line-height: 16.8px
+            letter-spacing: -0.28px
+            margin-bottom: 8px
+         p 
+            transition: 0.5s 
+            margin-bottom: 10px
+            color: rgb(5, 32, 62)
+            font-size: 21.83px
+            font-weight: 600
+            line-height: 22px
+            font-family: 'Museo Sans Cyrl 700'
+            letter-spacing: -0.44px
+         small 
+            color: rgb(155, 166, 178)
+            font-size: 15.88px
+            font-weight: 400
+            line-height: 19.2px
+            letter-spacing: -0.32px
+            white-space: nowrap
+      &:nth-child(n+9)
+         margin-bottom: 0
+      &:hover 
+         border: 2px solid $vio
+         p 
+            color: $vio
+   &__stars 
+      position: absolute
+      bottom: 13px
+      left: 178px
+      pointer-events: none
+      z-index: 2
+   &__block 
+      width: 335px
+      height: 430px
+      border-radius: 20px
+      background: url(/img/bg9.png) no-repeat center center / cover
+      position: relative
+      padding: 30px
+      &:hover 
+         .svg 
+            path
+               fill: white
+            circle 
+               fill: $vio
+   &__content 
+      flex-wrap: wrap 
+      justify-content: space-between
+      width: 100%
+      max-width: 655px
+      border: 2px solid rgb(240, 244, 245)
+      border-radius: 20px
+   &__right 
+      width: 100%
+      max-width: 470px
+      border: 2px solid rgb(240, 244, 245)
+      border-radius: 20px
+      flex-wrap: wrap 
+      justify-content: space-between
+   &__el 
+      width: 50%
+      padding: 20px
+      border-bottom: 2px solid rgb(240, 244, 245)
+      border-right: 2px solid rgb(240, 244, 245)
+      a 
+         width: 160px
+         height: 32px
+         border-radius: 50px
+         background: rgb(53, 146, 210)
+         color: rgb(255, 255, 255)
+         margin-bottom: 15px
+      p 
+         color: rgba(0, 0, 0, 0.4)
+         font-size: 16px
+         font-weight: 400
+         line-height: 18px
+      &:nth-child(2n)
+         border-right: none
+      &:nth-child(n+5)
+         border-bottom: none
+   &__name 
+      color: rgb(255, 255, 255)
+      font-size: 30px
+      font-weight: 700
+      line-height: 38px
+      margin-bottom: 30px
+      font-family: 'Museo Sans Cyrl 900'
+   &__text 
+      color: rgb(255, 255, 255)
+      font-size: 20px
+      font-weight: 400
+      line-height: 23px
+      margin-bottom: 30px
+   &__item 
+      width: 25%
+      padding: 8px 20px
+      border-bottom: 2px solid rgb(240, 244, 245)
+      border-right: 2px solid rgb(240, 244, 245)
+      span 
+         display: block
+         color: rgb(174, 86, 209)
+         font-size: 30px
+         font-weight: 600
+         font-family: 'Museo Sans Cyrl 700'
+         line-height: 54px
+         transition: 0.5s
+      p 
+         color: rgb(0, 0, 0)
+         font-size: 18px
+         font-weight: 400
+         line-height: 31.2px
+      &:nth-child(4n)
+         border-right: none
+      &:last-child
+         border-right: none
+         border-bottom: none
+         width: 50%
+         padding-top: 6px
+         span 
+            color: rgb(0, 0, 0)
+            font-size: 20px
+            font-weight: 600
+            line-height: 43px
+         p 
+            color: rgba(0, 0, 0, 0.4)
+            font-size: 16px
+            font-weight: 400
+            line-height: 18px
+            padding-bottom: 2px
+      &:nth-child(13)
+         border-bottom: none
+         width: 50%
+         padding-top: 6px
+         span 
+            color: rgb(0, 0, 0)
+            font-size: 20px
+            font-weight: 600
+            line-height: 43px
+         p 
+            color: rgba(0, 0, 0, 0.4)
+            font-size: 16px
+            font-weight: 400
+            line-height: 18px
+            padding-bottom: 2px
+      &:hover 
+         span 
+            color: $blue
+   &__area 
+      width: 24%
+      padding: 23px
+      border: 2px solid rgb(240, 244, 247)
+      border-radius: 24px
+      p 
+         margin-bottom: 30px
+         color: rgb(5, 32, 62)
+         font-size: 21.83px
+         font-weight: 600
+         font-family: 'Museo Sans Cyrl 700'
+         line-height: 22px
+      a 
+         display: block
+         width: max-content
+         color: rgb(5, 32, 62) !important
+         font-size: 20px !important
+         font-weight: 400 !important
+         letter-spacing: -0.32px !important
+         border-bottom: 1px solid rgb(5, 32, 62)
+         margin-bottom: 15px
+         &:hover 
+            border-bottom: 1px solid $vio !important
+            color: $vio !important
+   &__last 
+      flex-wrap: wrap 
+      width: 48%
+      justify-content: space-between
+      a 
+         display: block
+         height: 266px
+         border: 2px solid rgb(240, 244, 247)
+         border-radius: 24px
+         padding: 23px
+         margin-bottom: 18px
+         width: 48.5%
+         p 
+            transition: 0.5s 
+            margin-bottom: 30px
+            color: rgb(5, 32, 62)
+            font-size: 21.83px
+            font-weight: 600
+            line-height: 22px
+            font-family: 'Museo Sans Cyrl 700'
+            letter-spacing: -0.44px
+         span 
+            color: rgb(155, 166, 178)
+            font-size: 20px
+            font-weight: 400
+            line-height: 25px
+            letter-spacing: -0.32px
+         &:nth-child(n+3)
+            margin-bottom: 0
+         &:hover 
+            border: 2px solid $vio
+            p 
+               color: $vio
+.nav 
+   position: relative
+   z-index: 10
+   padding: 40px 0
+   &__box 
+      justify-content: space-between
+      align-items: center
+   &__logo 
+      display: block
+      position: relative
+      margin-right: 70px
+      img 
+         object-fit: contain 
+         width: 100%
+      &:after 
+         content: ""
+         display: block
+         position: absolute
+         right: -35px
+         top: 9px
+         width: 1px
+         height: 67px
+         background: rgba(255, 255, 255, 0.5)
+   &__list 
+      align-items: center
+      flex-wrap: wrap 
+      justify-content: flex-start
+      li 
+         margin-right: 31px
+         img 
+            margin-left: 2px
+         &:last-child
+            margin-right: 0
+         a 
+            color: rgb(255, 255, 255)
+            font-size: 19.84px
+            font-weight: 600
+            line-height: 24px
+            letter-spacing: -0.4px
+            font-family: 'Museo Sans Cyrl 700'
+         .get__box 
+            opacity: 0
+            position: absolute
+            pointer-events: none
+            transition: 0.5s
+            top: 76%
+            left: -18px
+            z-index: 5
+            width: max-content
+            background: black
+            padding: 50px
+            width: 1600px
+            left: 50%
+            margin-left: -800px
+            box-sizing: border-box;
+            border: 2px solid rgb(240, 244, 245)
+            border-radius: 50px
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.08),0px 0px 4px 0px rgba(0, 0, 0, 0.04)
+            background: rgb(255, 255, 255)
+         &:hover 
+            .get__box  
+               opacity: 1
+               pointer-events: inherit
+   &__btn 
+      margin-left: 20px
+   &__enter 
+      background: transparent
+      justify-content: space-between
+      border: 1px solid rgb(255, 255, 255)
+      color: rgb(255, 255, 255)
+      padding: 0 8px 0 44px
+      margin-left: 50px
+      &:hover 
+         border: 1px solid $vio
+   .menu-btn2
+      margin-left: 0
+      width: auto
+      height: auto
+      display: flex
+      align-items: center
+      p 
+         color: rgb(255, 255, 255)
+         font-size: 19.84px
+         font-weight: 600
+         line-height: 24px
+         letter-spacing: -0.4px
+         margin-right: 20px
+         transition: 0.5s
+      .svg 
+         position: relative
+         opacity: 1
+      &:hover 
+         p
+            color: $vio
+         .svg
+            path, circle
+               stroke: $vio
+      &.active 
+         p 
+            display: none
+.search.active + header .nav__list 
+   pointer-events: none
+.search
+   position: fixed
+   top: 0
+   left: 50%
+   margin-left: -50%
+   width: 100%
+   height: auto
+   padding: 40px 
+   background: rgba(43, 135, 222, 0.95)
+   transform: translatey(-100%)
+   transition: transform 0.5s
+   z-index: 20
+   overflow: hidden
+   border-top: none 
+   h2 
+      margin-bottom: 30px
+      color: #000
+      color: rgb(255, 255, 255)
+      font-size: 31.88px
+      font-weight: 600
+      line-height: 36px
+      letter-spacing: -0.64px
+.search.active
+   transform: translatey(0)
+.menu-btn2.active 
+   overflow: visible
+   position: fixed
+   top: 4%
+   right: 8%
+   width: 33px
+   height: 33px
+   transition: 0.5s
+   background: url(/img/close2.svg) no-repeat !important
+   .svg 
+      display: none
+   &:hover 
+      opacity: 0.4
+.mobile__form
+   position: relative
+   input 
+      width: 100%
+      padding: 9px 20px
+      border-radius: 10px
+      height: 60px
+      border: 2px solid transparent
+      &:focus
+         border: 2px solid $vio !important
+   button 
+      position: absolute
+      background: none 
+      border: none
+      right: 15px
+      transition: 0.5s
+      bottom: 10px
+      .svg 
+         position: relative
+      &:hover 
+         .svg
+            path, circle
+               stroke: $vio
+.header 
+   overflow: hidden
+   background: url(/img/bg.png) no-repeat center center / cover
+   border-radius: 50px
+   width: 100%
+   max-width: 1820px 
+   margin: 40px auto 0
+   &__wrap 
+      margin-top: 60px
+      align-items: flex-start
+      justify-content: space-between
+      position: relative 
+      padding-bottom: 50px
+   &__star 
+      position: absolute
+      right: 35%
+      top: -12px
+   &__pic 
+      position: absolute
+      top: -229px
+      right: 75px
+   &__title 
+      margin-bottom: 27px
+      color: rgb(255, 255, 255)
+      font-size: 31px
+      font-weight: 600
+      line-height: 28.66px
+      letter-spacing: -0.77px
+   &__row 
+      justify-content: space-between
+      flex-wrap: wrap 
+      width: 100%
+      max-width: 550px 
+      margin-bottom: 58px
+      a 
+         display: flex
+         align-items: center
+         justify-content: center
+         width: 48%
+         margin-bottom: 11px
+         width: 175.83px
+         border-radius: 89.63px
+         background: linear-gradient(90.00deg, rgb(213, 81, 217),rgb(231, 78, 35) 100%)
+         color: rgb(255, 255, 255)
+         font-size: 20.17px
+         font-weight: 600
+         line-height: 25.69px
+         letter-spacing: -0.42px
+         font-family: 'Museo Sans Cyrl 700'
+         height: 51px
+         &:hover 
+            opacity: 0.8
+   h1 
+      margin-bottom: 47px
+   &__text 
+      color: rgb(255, 255, 255)
+      font-size: 31.88px
+      font-weight: 400
+      line-height: 36px
+      letter-spacing: -0.64px
+   &__bottom 
+      align-items: center
+      justify-content: space-between
+      padding-top: 35px
+      padding-bottom: 40px
+      border-top: 1px solid rgb(217, 217, 217)
+   &__tel 
+      color: rgb(255, 255, 255)
+      font-size: 20px
+      font-weight: 600
+      line-height: 24px
+      text-transform: uppercase
+      margin-right: 63px
+      letter-spacing: 0.015rem
+      &:hover 
+         color: $vio
+   &__info 
+      align-items: center
+   &__socials 
+      margin-left: -14px
+      a 
+         display: flex
+         align-items: center
+         justify-content: center
+         margin-right: 20px
+         width: 54px
+         height: 54px
+         border-radius: 19.99px
+         background: rgb(240, 244, 247)
+         &:hover 
+            background: $vio
+            .svg 
+               path 
+                  fill: white
+   &__mail 
+      color: rgb(255, 255, 255)
+      font-size: 20px
+      font-weight: 600
+      line-height: 24px
+      font-family: 'Museo Sans Cyrl 700'
+      text-transform: uppercase
+      &:hover 
+         color: $vio
+.sub 
+   position: relative
+   width: 100%
+   margin: 192px 0 100px
+   &__wrap 
+      width: 100%
+      border-radius: 50px
+      padding: 32px 94px 32px 32px
+      display: flex
+      align-items: flex-start
+      background: url(/img/sub2.png) no-repeat center center / cover
+   &__star 
+      position: absolute
+      right: 24%
+      top: 42px
+   &__star2
+      position: absolute
+      right: 29px
+      top: 37px
+   &__pic 
+      position: absolute
+      top: -135px
+      right: 89px
+   &__title 
+      font-size: 35.86px
+      line-height: 43.2px
+      letter-spacing: -1.08px
+      color: white
+      font-family: 'Museo Sans Cyrl 700'
+      margin-bottom: 13px
+      span 
+         display: inline-flex
+         height: 58px
+         align-items: center
+         justify-content: center
+         border-radius: 84px
+         background: rgb(255, 255, 255)
+         padding: 0 17px 
+         color: rgb(129, 102, 203)
+         margin-right: 5px
+   &__text 
+      color: rgba(255, 255, 255, 0.8)
+      font-size: 21.83px
+      font-weight: 400
+      line-height: 26.4px
+      letter-spacing: -0.32px
+      margin-bottom: 60px
+      margin-left: 15px
+   &__link 
+      margin-left: 15px
+.link 
+   color: rgb(255, 255, 255)
+   font-size: 21.83px
+   font-weight: 600
+   line-height: 26.4px
+   letter-spacing: -0.32px
+   font-family: 'Museo Sans Cyrl 700'
+   display: flex
+   align-items: center
+   width: max-content
+   .svg 
+      margin-left: 2px
+   &:hover 
+      color: $blue
+      .svg 
+         path 
+            stroke: $blue
+.info 
+   padding: 106px 0
+   &__box 
+      align-items: start
+      justify-content: space-between
+      margin-top: 90px
+      position: relative
+   &__bird 
+      position: absolute
+      right: 87px
+      top: -396px
+      z-index: -1
+   &__wrap
+      width: 100%
+      display: flex
+      align-items: flex-start
+      flex-direction: column
+      height: 100%
+      border-radius: 50px
+      overflow: hidden
+      &:hover 
+         .info__content
+            backdrop-filter: blur(10px)
+            background: rgba(134, 54, 19, 0.5)
+            small
+               max-height: 400px
+               opacity: 1
+            img 
+               transform: rotate(40deg)
+   &__area 
+      max-width: 45.5%
+      width: 100%
+   &__fig 
+      position: absolute
+      top: 69px
+      left: 177px
+   &__star 
+      position: absolute
+      top: 72px
+      left: 66px
+   &__item 
+      width: 100%
+      position: relative
+      margin-bottom: 136px
+      height: 435px
+      &_1
+         .info__wrap
+            background: url(/img/bg1.png) no-repeat center center / cover
+      &_2
+         height: 880px
+         .info__wrap
+            background: url(/img/bg2.png) no-repeat center center / cover
+         .info__pic 
+            top: 61px
+            right: 58px
+         .info__fig
+            top: inherit
+            left: inherit
+            bottom: 136px
+            right: 19px
+      &_3
+         height: 880px
+         .info__wrap
+            background: url(/img/bg3.png) no-repeat center center / cover
+         .info__pic 
+            right: 58px
+            top: 61px
+         .info__fig
+            top: inherit
+            left: inherit
+            bottom: 136px
+            right: 19px
+      &_4
+         .info__wrap
+            background: url(/img/bg4.png) no-repeat center center / cover
+   &__pic 
+      position: absolute
+      top: -86px
+      right: -77px
+   &__content 
+      margin-top: auto
+      position: relative
+      z-index: 3
+      border-radius: 50px
+      overflow: hidden
+      padding: 30px 50px 30px
+      transition: 0.5s 
+      img 
+         margin-bottom: 40px
+         transition: 0.5s
+      p 
+         color: rgb(255, 255, 255)
+         font-size: 35px
+         font-weight: 600
+         font-family: 'Museo Sans Cyrl 700'
+         line-height: 32px
+         letter-spacing: -0.54px
+      small 
+         color: white
+         font-size: 21.83px
+         font-weight: 400
+         line-height: 28px
+         letter-spacing: -0.54px
+         overflow: hidden
+         max-height: 0
+         opacity: 0
+         transition: max-height 0.5s ease, opacity 0.5s ease
+         margin-top: 20px
+         display: block
+.study 
+   padding: 100px 0  0
+   border-radius: 50px
+   background: rgb(238, 224, 247)
+   max-width: 1820px 
+   margin: -39px auto 100px
+   width: 100%
+   &__wrap 
+      position: relative
+      padding: 155px 0px 227px
+      h2, p 
+         width: 100%
+         max-width: 767px 
+      h2 
+         margin-bottom: 44px
+      .study__last 
+         margin-top: 350px
+         margin-left: auto
+         max-width: 506px 
+      p 
+         color: rgb(5, 32, 62)
+         font-size: 23.81px
+         font-weight: 400
+         line-height: 28.8px
+         letter-spacing: -0.48px
+         span 
+            font-family: 'Museo Sans Cyrl 700'
+   &__star1 
+      position: absolute
+      top: -184px
+      left: 0px
+   &__star2
+      position: absolute
+      bottom: -57px
+      right: 22px
+   &__image 
+      position: absolute
+      top: 40px
+      left: 0
+   &__pic
+      position: absolute
+      top: 150px
+      right: 131px
+   &__btn
+      width: 790px
+      height: 74px
+      position: relative
+      z-index: 5
+      border-radius: 500px
+      color: rgb(255, 255, 255)
+      font-size: 21.83px
+      font-weight: 600
+      font-family: 'Museo Sans Cyrl 700'
+      margin: -45px auto -33px
+      line-height: 26.4px
+      letter-spacing: -0.32px
+      background: initial
+      overflow: hidden
+      &:hover 
+         color: white
+         &:after 
+            opacity: 1
+         &:before 
+            opacity: 1
+            left: 0px
+            width: 100%
+            height: 100%
+      &::after
+         content: ""
+         position: absolute
+         height: 100%
+         width: 100%
+         box-sizing: border-box
+         background: linear-gradient(180.00deg, rgb(193, 110, 226),rgb(164, 73, 200) 100%),linear-gradient(88.85deg, rgb(255, 147, 39) 7.168%,rgb(255, 106, 43) 99.777%)
+         left: 0px
+         z-index: -2
+         transition: 0.7s
+         opacity: 1
+      &:before 
+         content: ""
+         position: absolute
+         height: 100%
+         width: 0%
+         box-sizing: border-box
+         background: $blue
+         left: 0px
+         top: 0
+         transform-origin: top 
+         z-index: -1
+         transition: 0.7s
+         opacity: 0
+.arrows
+   display: flex
+   justify-content: center
+   width: 174px
+   height: 92px
+   align-items: center
+   border-radius: 87px
+   background: rgb(245, 247, 250)
+   margin: 0 auto
+   div 
+      transition: 0.5s 
+      position: relative
+      cursor: pointer
+      border-radius: 50% 
+      width: 72px
+      height: 72px
+      display: flex
+      align-items: center
+      justify-content: center
+      background: rgb(255, 255, 255)
+      &:first-child
+         margin-right: 10px
+      .svg 
+         path 
+            fill: #000000
+      &:hover 
+         background: $vio
+         .svg 
+            path 
+               fill: white
+.why 
+   padding: 100px 0 196px
+   &__row 
+      justify-content: space-between
+      margin-bottom: 200px
+      div 
+         position: relative
+         height: 280px
+         width: 280px
+         border-radius: 50% 
+         background: url(/img/ellipse.png) no-repeat center center / cover
+         display: flex
+         align-items: center
+         justify-content: center
+         flex-direction: column
+         p 
+            color: rgba(255, 255, 255, 0.7)
+            font-size: 20.84px
+            font-weight: 400
+            line-height: 25.2px
+            letter-spacing: -0.42px
+            text-align: center
+            margin-bottom: 20px
+         span 
+            color: rgb(255, 255, 255)
+            font-size: 63.5px
+            font-family: 'Museo Sans Cyrl 700'
+            font-weight: 600
+            line-height: 76.8px
+            letter-spacing: -1.92px
+            text-align: center
+   h2 
+      text-align: center
+      margin-bottom: 82px
+   .swiper1 
+      height: 620px
+      width: 83%
+      margin: 0 auto 50px
+      position: relative
+      left: -46px
+      .swiper-wrapper 
+         align-items: center
+      .swiper-slide 
+         width: 100%
+         height: 492px
+         border-radius: 32px
+         background: rgb(211, 228, 255)
+         display: flex
+         flex-direction: column 
+         padding: 40px
+         align-items: flex-start
+         transition: 0.5s
+         p 
+            color: rgb(0, 0, 0)
+            font-size: 20px
+            font-weight: 400
+            line-height: 28px
+            text-align: center
+            margin: 0 auto 15px
+            transition: 0.5s
+         h3 
+            color: rgb(0, 0, 0)
+            font-size: 30px
+            font-weight: 600
+            line-height: 32px
+            text-align: center
+            margin: auto auto 0
+         img 
+            max-width: 100% 
+            object-fit: contain
+            margin: 0 auto
+            transition: 0.5s
+         &_2
+            background: #EEE0F7
+         &_3
+            background: #B8E9E1
+         &_4
+            background: #F7EDAE
+      .swiper-slide-active
+         width: 520px !important
+         height: 620px !important
+         img 
+            transform: scale(1.2)
+         p 
+            margin-bottom: 70px
+.pay 
+   padding: 115px 0 100px
+   border-radius: 50px
+   background: rgb(238, 224, 247)
+   max-width: 1820px 
+   margin: 0px auto 100px
+   width: 100%
+   h2 
+      color: rgb(193, 110, 226)
+      font-size: 236.41px
+      font-weight: 700
+      line-height: 262.49px
+      text-align: center
+      text-transform: uppercase
+      font-family: 'Museo Sans Cyrl 900'
+      margin-bottom: 75px
+   &__row 
+      justify-content: space-between
+   &__item 
+      width: 31.5%
+      border-radius: 50px
+      height: 777px
+      padding: 40px 41px
+      display: flex
+      flex-direction: column 
+      align-items: flex-start
+      position: relative
+      &:nth-child(1)
+         background: url(/img/bg5.png) no-repeat center center / cover
+      &:nth-child(2)
+         background: url(/img/bg6.png) no-repeat center center / cover
+         .pay__star1
+            left: inherit
+            right: 72px
+            top: 179px
+      &:nth-child(3)
+         background: url(/img/bg7.png) no-repeat center center / cover
+         .pay__pic
+            margin: -121px auto 51px
+      h3 
+         margin-top: 0
+         margin-bottom: 30px
+         color: rgb(255, 255, 255)
+         font-size: 53.79px
+         font-family: 'Museo Sans Cyrl 700'
+         font-weight: 600
+         line-height: 54px
+         letter-spacing: -1.62px
+      small 
+         color: rgb(255, 255, 255)
+         font-size: 25.9px
+         font-weight: 400
+         line-height: 31.2px
+         letter-spacing: -0.52px
+      p 
+         color: rgb(255, 255, 255)
+         font-size: 63.38px
+         font-weight: 600
+         font-family: 'Museo Sans Cyrl 700'
+         line-height: 76.8px
+         letter-spacing: -1.92px
+         margin: 30px 0
+         span 
+            color: rgb(255, 255, 255)
+            font-size: 26.29px
+            font-weight: 400
+            font-family: 'Museo Sans Cyrl 500', sans-serif
+            line-height: 21px
+            letter-spacing: -0.53px
+            position: relative
+            left: -9px
+            top: -6px
+   &__pic 
+      display: block
+      margin: -140px auto 30px
+   &__star1 
+      position: absolute
+      top: 155px
+      left: 42px
+   &__star2
+      position: absolute
+      bottom: 131px
+      right: 58px
+   &__btn 
+      width: 308.49px
+      height: 74.4px
+      margin-top: auto
+      font-size: 21.5px
+.opt 
+   padding: 111px 0
+   &__wrap 
+      position: relative
+   &__stars 
+      position: absolute
+      top: -71px
+      right: 220px
+   &__box 
+      justify-content: space-between
+      margin-top: 100px
+      flex-wrap: wrap
+   &__item 
+      height: 328.54px
+      border-radius: 50px
+      background: rgb(238, 224, 247)
+      padding: 33px 33px 33px 44px
+      margin-bottom: 50px
+      width: 45.45%
+      display: flex
+      flex-direction: column 
+      align-items: flex-start
+      &:nth-child(1), &:nth-child(4), &:nth-child(5), &:nth-child(8)
+         background: rgb(211, 228, 255)
+         .opt__content span
+            color: rgb(43, 135, 222)
+         .opt__bottom 
+            border-top: 3.092160940170288px solid rgba(43, 135, 222, 0.18)
+      &:hover 
+         background: rgb(36, 150, 255)
+         .opt__content
+            span, p 
+               color: white
+         .opt__bottom
+            border-top: 3.092160940170288px solid rgba(255, 255, 255, 0.18)
+            .svg 
+               path 
+                  stroke: white
+            p 
+               color: white
+   &__top 
+      justify-content: space-between
+      align-items: flex-start
+      width: 100%
+   &__content 
+      span 
+         color: rgb(161, 118, 188)
+         font-size: 25px
+         font-weight: 600
+         line-height: 32.47px
+         letter-spacing: -0.54px
+         transition: 0.5s
+         display: block
+         font-family: 'Museo Sans Cyrl 700'
+         margin-bottom: 51px
+      p 
+         color: rgb(5, 32, 62)
+         font-size: 35px
+         transition: 0.5s
+         font-weight: 600
+         line-height: 38px
+         letter-spacing: -0.85px
+         font-family: 'Museo Sans Cyrl 700'
+   &__bottom 
+      align-items: center
+      transition: 0.5s
+      justify-content: space-between
+      padding-top: 22px
+      border-top: 3.09216px solid rgba(161, 118, 188, 0.18)
+      margin-top: 18px
+      margin-top: auto
+      width: 100%
+      p 
+         color: rgb(5, 32, 62)
+         font-size: 25px
+         font-weight: 400
+         line-height: 37.11px
+         letter-spacing: -0.62px
+         transition: 0.5s
+.youtube-link .svg, .youtube-link path 
+   transition: 0.5s
+.grtvideo-popup
+   position: fixed
+   top: 0px
+   left: 0
+   right: 0
+   bottom: 0
+   background: rgba(0, 0, 0, 0.85)
+   z-index: 99999
+   padding-top: 100px
+.grtvideo-popup-content
+   margin-top: 50px
+   width: 95%
+   max-width: 850px
+   margin-left: auto
+   margin-right: auto
+   -webkit-box-shadow: 0px 0px 8px 0px rgba(255, 255, 255, 0.4)
+   -moz-box-shadow: 0px 0px 8px 0px rgba(255, 255, 255, 0.4)
+   box-shadow: 0px 0px 8px 0px rgba(255, 255, 255, 0.4)
+   position: relative
+.grtvideo-popup-close 
+   position: absolute
+   top: -50px
+   right: 0
+   cursor: pointer
+   transition: 0.5s
+   background: url(/img/close2.svg) no-repeat center center / cover
+   width: 24px
+   height: 24px
+   &:hover 
+      transform: rotate(90deg)
+.grtyoutube-iframe 
+   width: 100%
+   height: 480px
+.video 
+   padding: 44px 0 100px
+   max-width: 1820px 
+   margin: 0px auto
+   width: 100%
+   overflow: hidden
+   &__wrap 
+      height: 820px
+      position: relative
+      border-radius: 50px
+      overflow: hidden
+      cursor: pointer
+      .svg 
+         position: absolute
+         top: 50%
+         z-index: 2
+         left: 50%
+         margin-top: -48px
+         margin-left: -48px
+      &:after 
+         content: ""
+         display: block
+         position: absolute
+         top: 0
+         left: 0
+         width: 100%
+         height: 100%
+         background: rgba(0, 0, 0, 0.5)
+      &:hover 
+         .svg 
+            opacity: 0.7
+   &__pic 
+      position: absolute
+      width: 100%
+      height: 100%
+      object-fit: cover 
+      top: 0
+      left: 0
+.rev 
+   padding: 100px 0
+   h2 
+      margin-bottom: 112px
+   &__wrap 
+      position: relative
+   &__top 
+      align-items: center
+      margin-bottom: 50px
+      justify-content: space-between
+      padding-right: 221px
+      .tabs__nav 
+         display: flex
+         align-items: center
+         justify-content: center
+         width: 486px
+         height: 92px
+         border-radius: 64px
+         background: rgb(244, 245, 251)
+         overflow: hidden
+         padding: 6px
+         a 
+            display: flex
+            align-items: center
+            justify-content: center
+            width: 239px
+            height: 80px
+            border-radius: 50px
+            color: rgb(0, 0, 0)
+            font-size: 20px
+            font-weight: 600
+            font-family: 'Museo Sans Cyrl 700'
+            line-height: 18px
+            &:hover 
+               color: $vio
+         .tabs__btn_active
+            background: linear-gradient(180.00deg, rgb(193, 110, 226),rgb(164, 73, 200) 100%),rgb(61, 59, 255)
+            color: white !important
+   &__link 
+      display: block
+      width: max-content
+      color: rgb(181, 95, 215)
+      font-size: 20px
+      font-weight: 600
+      font-family: 'Museo Sans Cyrl 700'
+      line-height: 25px
+      border-bottom: 1px solid rgb(181, 95, 215)
+      &:hover 
+         color: #000
+         border-bottom: 1px solid #000
+   .swiper-slide 
+      border-radius: 50px
+      background: rgb(234, 235, 241)
+      overflow: hidden
+      padding: 33px 30px 
+      display: flex
+      height: auto
+      flex-direction: column 
+      align-items: flex-start
+   .swiper-wrapper
+      align-items: stretch
+   &__info 
+      justify-content: space-between
+      align-items: center
+      margin-bottom: 31px
+      width: 100%
+   &__ava
+      align-items: center
+      img 
+         display: block
+         object-fit: contain 
+         border-radius: 50% 
+         width: 86px
+         height: 86px
+         overflow: hidden
+      div 
+         margin-left: 20px
+         span 
+            display: block
+            color: rgb(0, 0, 0)
+            font-size: 20px
+            font-weight: 600
+            font-family: 'Museo Sans Cyrl 700'
+            line-height: 20px
+            margin-bottom: 5px
+         p 
+            color: rgb(174, 86, 209)
+            font-size: 18px
+            font-weight: 600
+            line-height: 21px
+   &__time 
+      color: rgba(0, 0, 0, 0.3)
+      font-size: 20px
+      font-weight: 400
+      line-height: 25px 
+   &__text 
+      margin-bottom: 49px
+      p 
+         color: rgb(0, 0, 0)
+         font-size: 20px
+         font-weight: 400
+         line-height: 25px
+   &__original 
+      color: rgb(181, 95, 215)
+      font-size: 20px
+      margin-top: auto
+      font-weight: 600
+      font-family: 'Museo Sans Cyrl 700'
+      line-height: 25px
+      border-bottom: 1px solid rgb(181, 95, 215)
+      &:hover 
+         color: #000
+         border-bottom: 1px solid #000
+   .arrows
+      position: absolute
+      right: 0
+      top: 242px
+   .swiper2, .swiper3 
+      width: 83%
+   .study__star1 
+      position: absolute
+      top: -12px
+      left: inherit
+      right: 24%
+label.error 
+   display: none !important
+input.error 
+   border: 2px solid rgb(231, 78, 35) !important
+.order
+   background: url(/img/bg8.png) no-repeat center center / cover
+   border-radius: 50px
+   width: 100%
+   max-width: 1820px 
+   margin: 100px auto
+   padding: 100px 0
+   &__wrap 
+      position: relative
+   &__bird 
+      position: absolute
+      bottom: -301px
+      left: -161px
+      z-index: 2
+   &__star
+      position: absolute
+      right: -5px
+      top: -45px
+   &__block 
+      align-items: flex-start
+      justify-content: space-between
+      padding: 48px 45px 30px 50px 
+      border-radius: 32px
+      backdrop-filter: blur(4px)
+      background: rgba(212, 232, 255, 0.75)
+      width: 100%
+      max-width: 1168px 
+      margin: 0 auto
+   &__content 
+      width: 100%
+      max-width: 388px 
+   &__form 
+      width: 100%
+      max-width: 652px 
+      button 
+         margin-bottom: 16px
+         width: 100%
+         height: 58px
+         position: relative
+         z-index: 5
+         border-radius: 500px
+         color: rgb(255, 255, 255)
+         font-weight: 600
+         font-family: 'Museo Sans Cyrl 700'
+         line-height: 26.4px
+         letter-spacing: -0.32px
+         background: initial
+         overflow: hidden
+         border: none
+         &:hover 
+            color: white
+            &:after 
+               opacity: 1
+            &:before 
+               opacity: 1
+               left: 0px
+               width: 100%
+               height: 100%
+         &::after
+            content: ""
+            position: absolute
+            height: 100%
+            width: 100%
+            box-sizing: border-box
+            background: linear-gradient(180.00deg, rgb(193, 110, 226),rgb(164, 73, 200) 100%),linear-gradient(88.85deg, rgb(255, 147, 39) 7.168%,rgb(255, 106, 43) 99.777%)
+            left: 0px
+            z-index: -2
+            transition: 0.7s
+            opacity: 1
+         &:before 
+            content: ""
+            position: absolute
+            height: 100%
+            width: 0%
+            box-sizing: border-box
+            background: $blue
+            left: 0px
+            top: 0
+            transform-origin: top 
+            z-index: -1
+            transition: 0.7s
+            opacity: 0
+   &__flex 
+      justify-content: space-between
+      flex-wrap: wrap 
+      input 
+         height: 56px
+         width: 48.8%
+         padding-left: 20px
+         border: 2px solid transparent
+         border-radius: 8px
+         margin-bottom: 16px
+         color: black
+         font-size: 20px
+         font-weight: 400
+         line-height: 24px
+         background: rgb(244, 245, 251)
+         &:focus 
+            border: 2px solid $vio
+         &:first-child
+            width: 100%
+   .custom-checkbox + label
+      align-items: flex-start
+      span 
+         color: rgba(5, 32, 62, 0.6)
+         font-size: 16px
+         font-weight: 400
+         line-height: 18px
+         a 
+            color: rgba(5, 32, 62, 0.6)
+            text-decoration: underline
+            &:hover 
+               color: $vio
+   .custom-checkbox + label::before
+      margin-right: 12px
+      width: 28px
+      height: 28px
+      max-width: 28px
+      box-sizing: border-box
+      border: 2px solid rgb(174, 86, 209)
+      background: rgb(255, 255, 255)
+      border-radius: 50%
+   .custom-checkbox:checked + label::before 
+      background: url(/img/check.svg) no-repeat center center
+      background-color: white
+      background-size: inherit
+   &__title 
+      margin-bottom: 30px
+      color: rgb(0, 0, 0)
+      font-size: 45px
+      font-weight: 600
+      font-family: 'Museo Sans Cyrl 700'
+      line-height: 40px
+   &__text 
+      color: rgb(102, 102, 102)
+      font-size: 18px
+      font-weight: 600
+      font-family: 'Museo Sans Cyrl 700'
+      line-height: 24px
+.footer 
+   border-radius: 50px
+   width: 100%
+   max-width: 1820px 
+   padding: 80px 0 60px
+   margin: 100px auto 40px
+   background: linear-gradient(-69.68deg, rgb(5, 31, 61) 4.815%,rgb(2, 17, 33) 88.823%),rgb(0, 19, 54)
+   &__title 
+      color: rgb(255, 255, 255)
+      font-size: 183px
+      font-weight: 700
+      line-height: 106.47%
+      text-align: center
+      text-transform: uppercase
+      margin-bottom: 25px
+      font-family: 'Museo Sans Cyrl 900'
+   &__local 
+      display: flex
+      align-items: center
+      justify-content: center
+      p 
+         margin-left: 15px
+         color: rgb(255, 255, 255)
+         font-size: 25px
+         font-weight: 400
+         line-height: 30px
+   &__info 
+      margin-top: 60px
+      padding-top: 60px
+      padding-bottom: 18px
+      margin-bottom: 60px
+      border-top: 1px solid rgba(255, 255, 255, 0.4)
+      border-bottom: 1px solid rgba(255, 255, 255, 0.4)
+      flex-wrap: wrap 
+   &__el 
+      margin-right: 125px
+      margin-bottom: 31px
+      min-width: 672px
+      p 
+         color: rgba(255, 255, 255, 0.5)
+         font-size: 21.83px
+         font-weight: 600
+         line-height: 26.4px
+         font-family: 'Museo Sans Cyrl 700'
+         letter-spacing: -0.32px
+         margin-bottom: 10px
+      a 
+         color: rgb(255, 255, 255)
+         font-size: 69.77px
+         font-family: 'Museo Sans Cyrl 700'
+         font-weight: 600
+         line-height: 84px
+         text-transform: uppercase
+         &:hover 
+            color: $vio
+   &__content 
+      justify-content: space-between
+      flex-wrap: wrap 
+      padding-bottom: 60px
+      border-bottom: 1px solid rgba(255, 255, 255, 0.4)
+      margin-bottom: 55px
+   &__item 
+      width: 100%
+      max-width: 24.469%
+      margin-bottom: 0px
+      position: relative
+      p 
+         pointer-events: none 
+         color: rgb(255, 255, 255)
+         font-size: 23.81px
+         font-family: 'Museo Sans Cyrl 700'
+         font-weight: 600
+         line-height: 28.8px
+         letter-spacing: -0.32px
+         margin-bottom: 25px
+      ul 
+         li 
+            margin-bottom: 15.5px 
+            &:last-child
+               margin-bottom: 0
+            a 
+               color: rgba(255, 255, 255, 0.6)
+               font-size: 17.86px
+               font-weight: 400
+               line-height: 21.6px
+               letter-spacing: -0.32px
+               &:hover 
+                  color: $vio
+      &:last-child
+         align-self: flex-end
+         img 
+            position: absolute
+            top: -71px
+            left: 200px
+   &__link 
+      width: 297px
+      height: 124px
+      border-radius: 12px
+      background: rgb(13, 49, 90)
+      overflow: hidden
+      padding: 23px 27px
+      flex-direction: column 
+      align-items: flex-start
+      p 
+         color: rgb(255, 255, 255)
+         font-size: 17.86px
+         font-family: 'Museo Sans Cyrl 700'
+         font-weight: 600
+         line-height: 21.6px
+         letter-spacing: -0.32px
+      &:hover 
+         background: $vio
+   &__bottom 
+      align-items: center
+      padding-bottom: 60px
+      border-bottom: 1px solid rgba(255, 255, 255, 0.4)
+   &__socials 
+      margin-right: 97px
+      a 
+         display: flex
+         align-items: center
+         justify-content: center
+         border-radius: 50% 
+         margin-right: 12px
+         width: 48px
+         height: 48px
+         border-radius: 24px
+         background: rgba(255, 255, 255, 0.1)
+         &:hover 
+            background: $vio
+   &__links 
+      margin-right: 160px
+      a 
+         margin-bottom: 7px 
+         color: rgb(255, 255, 255)
+         font-size: 14px
+         font-weight: 300
+         display: block
+         line-height: 16.8px
+         letter-spacing: -0.32px
+         &:last-child
+            margin-bottom: 0
+         &:hover 
+            color: $vio
+   &__right 
+      margin-left: auto
+      p 
+         text-align: right
+         opacity: 0.6
+         color: rgb(255, 255, 255)
+         font-size: 14px
+         font-weight: 300
+         line-height: 22.4px
+         letter-spacing: -0.32px
+   &__last 
+      position: relative
+      padding-top: 60px
+      .go_to 
+         position: absolute
+         right: 0
+         top: 60px
+         &:hover 
+            rect 
+               fill: $vio
+            path 
+               fill: white
+   &__com
+      display: flex
+      align-items: center
+      justify-content: center
+      p 
+         margin-right: 22px
+         color: rgb(173, 180, 189)
+         font-size: 15px
+         font-weight: 600
+         line-height: 48px
+.header-school
+   .header__start
+      margin-top: 38px
+      width: 308px
+   .header__wrap
+      margin-top: 11px
+   .header__pic 
+      top: -33px
+      right: 10px
+   .header__star 
+      right: -85px
+      top: 316px
+.lic 
+   padding: 131px 0 100px
+   &__row 
+      align-items: flex-start
+      justify-content: space-between
+   &__info 
+      width: 100%
+      margin-top: 97px
+      max-width: 1050px 
+      h2 
+         margin-bottom: 38px
+      p 
+         color: rgb(5, 32, 62)
+         font-size: 23.81px
+         font-weight: 400
+         line-height: 28.8px
+         letter-spacing: -0.48px
+         margin-bottom: 38px
+      a 
+         color: rgb(181, 95, 215)
+         font-size: 20px
+         font-weight: 600
+         line-height: 25px
+         display: block
+         font-family: 'Museo Sans Cyrl 700'
+         width: max-content
+         border-bottom: 1px solid rgb(181, 95, 215)
+         &:hover 
+            color: #000
+            border-bottom: 1px solid #000
+.bird 
+   margin: 0 auto 105px
+   padding-top: 0
+   .study__wrap
+      padding: 103px 0px 29px
+   .study__star2
+      right: inherit
+      bottom: inherit
+      left: -78px
+      top: 3px
+   &__box 
+      align-items: flex-start
+      justify-content: space-between
+      img 
+         position: relative
+         left: 18px
+         top: -33px
+   &__content
+      width: 100%
+      max-width: 878px
+      margin-right: 49px
+      h2 
+         margin-bottom: 45px
+         max-width: 100%
+      p 
+         margin-bottom: 40px
+         color: rgb(5, 32, 62)
+         font-size: 23.81px
+         font-weight: 400
+         line-height: 28.8px
+         letter-spacing: -0.48px
+      a 
+         width: 308px
+.study-school
+   margin-bottom: 200px
+   .study__last
+      margin-top: 326px
+      margin-left: auto
+      max-width: 496px
+.cost 
+   padding: 115px 0 152px
+   border-radius: 50px
+   background: rgb(238, 224, 247)
+   max-width: 1820px 
+   margin: 0px auto 
+   width: 100%
+   &__content 
+      width: 100%
+      max-width: 435px
+      h2 
+         margin-bottom: 56px
+      ul 
+         padding-left: 15px
+         li 
+            display: flex
+            align-items: flex-start
+            color: rgb(5, 32, 62)
+            font-size: 23.81px
+            font-weight: 400
+            line-height: 28.8px
+            letter-spacing: -0.48px
+            margin-bottom: 9px
+            &:before 
+               content: ""
+               display: inline-block
+               border-radius: 50% 
+               flex: 1 0 auto 
+               background: rgb(5, 32, 62)
+               margin-right: 10px
+               width: 6px
+               height: 6px
+               max-width: 6px
+               position: relative
+               top: 10px
+            span 
+               text-decoration: underline
+               margin-left: 5px
+   &__box 
+      justify-content: space-between
+      align-items: flex-start
+      padding-top: 37px
+   &__row 
+      justify-content: space-between
+      width: 66%
+      .pay__item
+         width: 48%
+         background: url(/img/bg10.png) no-repeat center center / cover
+         p 
+            margin: 82px 0 30px
+         .pay__pic
+            margin: -182px auto 73px
+         .pay__star1 
+            top: 172px
+            left: 326px
+      .pay__item:nth-child(2)
+         background: url(/img/bg7.png) no-repeat center center / cover
+         .pay__star1
+            top: 152px
+            left: 37px
+      .pay__star2 
+         bottom: 151px
+         right: 15px
+      .pay__item p span
+         top: -12px
+   &__wrap 
+      position: relative
+   &__bird 
+      position: absolute
+      bottom: -359px
+      left: -133px
+.sub2 
+   .sub__wrap
+      padding-left: 42px
+      background: url(/img/bg11.png) no-repeat center center / cover
+   .sub__name
+      font-size: 40px
+      font-weight: 600
+      font-family: 'Museo Sans Cyrl 700'
+      line-height: 43.2px
+      letter-spacing: -1.08px
+      color: white
+      span 
+         opacity: 0.5
+   .sub__btn
+      margin-top: 37px
+      width: 308px
+   .sub__star 
+      right: 69px
+      top: 85px
+.header-search 
+   overflow: visible
+   margin-bottom: 40px
+   background: linear-gradient(90.00deg, rgb(15, 110, 175),rgb(108, 18, 153) 100%) !important
+   .nav
+      padding: 21px 0
+   .nav__list li .get__box
+      top: 101%
+   .get__box:after
+      top: -53px
+.sear
+   padding-bottom: 50px
+   .bread 
+      margin-bottom: 36px
+      a, p 
+         color: #000 
+         opacity: 0.7
+         &:after 
+            color: #000
+            opacity: 0.7
+      a:hover 
+         color: $vio
+   &__box 
+      width: 100%
+      max-width: 1100px 
+      margin: 0 auto
+   h1 
+      font-size: 63px
+      margin-bottom: 50px
+      color: rgb(5, 32, 62)
+      line-height: 100%
+   &__name 
+      font-size: 35px
+      font-family: 'Museo Sans Cyrl 700'
+      font-weight: 600
+      line-height: 38px
+      margin-bottom: 50px
+   .mobile__form
+      width: 100%
+      margin-bottom: 50px
+      input 
+         height: 74px
+         border: 3px solid rgb(174, 86, 209)
+         border-radius: 20px
+         font-size: 22px
+         padding-left: 30px
+         &:focus 
+            border: 3px solid $blue !important
+      button 
+         right: 20px
+         bottom: 16px
+         .svg
+            path, circle
+               stroke: $vio
+         &:hover 
+            .svg
+               path, circle
+                  stroke: $blue
+   &__item 
+      width: 100%
+      overflow: hidden
+      transition: 0.5s 
+      border: 2px solid rgb(240, 244, 247)
+      border-radius: 16px
+      box-shadow: 0px 4px 12px 0px rgba(13, 35, 67, 0.03)
+      background: rgb(255, 255, 255)
+      margin-bottom: 30px
+      padding: 30px
+      &:hover
+         border: 2px solid rgb(174, 86, 209)
+   &__top 
+      justify-content: space-between
+      margin-bottom: 12px
+      h2 
+         color: rgb(5, 32, 62)
+         font-size: 30px
+         font-weight: 700
+         font-family: 'Museo Sans Cyrl 900'
+         line-height: 24px
+      span 
+         color: rgb(174, 86, 209)
+         font-size: 20px
+         font-weight: 400
+         line-height: 150%
+   &__site 
+      color: rgb(43, 135, 222)
+      font-size: 16px
+      font-weight: 400
+      line-height: 17px
+      text-transform: lowercase
+      margin-bottom: 15px
+      display: block
+      &:hover 
+         color: $vio
+   &__text 
+      font-size: 20px
+      font-weight: 400
+      line-height: 28px
+      margin-bottom: 17px
+      a 
+         font-weight: 700
+         font-family: 'Museo Sans Cyrl 900'
+         color: rgb(43, 135, 222)
+         &:hover 
+            color: $vio
+   &__links 
+      justify-content: flex-start
+      flex-wrap: wrap 
+      a 
+         margin-right: 30px
+         color: rgba(174, 86, 209, 0.5)
+         font-size: 16px
+         font-weight: 400
+         line-height: 16px
+         &:last-child
+            margin-right: 0
+         &:hover 
+            color: rgba(174, 86, 209, 1)
+.personal 
+   &__wrap 
+      p 
+         color: rgb(5, 32, 62)
+         font-size: 20px
+         font-weight: 400
+         line-height: 28px
+         margin-bottom: 30px
+         span 
+            display: block
+            font-family: 'Museo Sans Cyrl 900'
+            font-weight: 700
+.header-pre_school
+   // background: url(/img/card1/bg.png) no-repeat center center / cover
+   .header__wrap
+      margin-top: 12px
+   .bread 
+      margin-bottom: 44px
+   .header__start
+      margin-top: 40px
+      width: 305px
+   .header__pic 
+      top: -87px
+      right: -107px
+.love 
+   padding: 125px 0 200px 
+   .study__bird
+      position: absolute
+      right: 0
+      top: 0
+   .container
+      position: relative
+   .par__bird
+      right: -70px
+   &__row 
+      justify-content: space-between
+      margin-top: 65px
+   &__item 
+      width: 32.5%
+      height: 444px
+      border-radius: 32px
+      background: rgb(234, 235, 241)
+      padding: 40px
+      position: relative
+      h3 
+         margin-top: 0
+         margin-bottom: 34px
+         font-size: 35px
+         font-family: 'Museo Sans Cyrl 700'
+         font-weight: 600
+         line-height: 38px
+      p 
+         color: rgb(0, 0, 0)
+         font-size: 20px
+         font-weight: 400
+         line-height: 28px
+      img 
+         position: absolute
+         bottom: -86px
+         right: 8px
+      &:first-child
+         img 
+            right: inherit
+            bottom: -86px
+            left: 18px
+.sec 
+   border-radius: 50px
+   width: 100%
+   max-width: 1820px
+   margin: 0 auto
+.par 
+   background: rgb(238, 224, 247)
+   padding: 141px 0 130px
+   margin-bottom: 99px
+   &__wrap 
+      position: relative
+   &__bird 
+      position: absolute
+      top: -327px
+      right: -13px
+      z-index: 0
+   &__row 
+      justify-content: space-between
+      flex-wrap: wrap 
+      margin-top: 66px
+   &__item 
+      position: relative
+      z-index: 2
+      width: 49.5%
+      height: 370px
+      margin-bottom: 20px
+      border-radius: 32px
+      background: rgb(255, 255, 255)
+      padding: 40px
+      p 
+         color: rgb(0, 0, 0)
+         font-size: 25px
+         font-weight: 400
+         line-height: 38px
+         width: 100%
+         max-width: 498px
+      img 
+         position: absolute
+         bottom: 19px
+         right: 26px
+.order-pre
+   background: url(/img/card1/bg1.png) no-repeat center center / cover
+   margin-bottom: 200px
+   position: relative
+   z-index: 3
+   .order__bird 
+      bottom: -68px
+      left: -84px
+   .order__bird2
+      position: absolute
+      top: 14px
+      left: -80px
+.order-pre2 
+   .order__bird 
+      left: 89px
+   .order__title
+      margin-bottom: 23px
+.ser 
+   background: rgb(238, 224, 247)
+   padding: 150px 0 130px
+   &__wrap 
+      position: relative
+   &__star 
+      top: -112px
+      right: 32%
+      position: absolute
+   .rev__top
+      padding-right: 0
+      margin-bottom: 70px
+   .swip 
+      overflow: hidden
+      .swiper-wrapper
+         flex-wrap: wrap
+         .swiper-slide
+            margin-bottom: 20px
+            position: relative
+            height: 444px
+            border-radius: 32px
+            background: rgb(255, 255, 255)
+            display: flex
+            flex-direction: column 
+            align-items: flex-start
+            padding: 40px
+            &:nth-child(3n)
+               margin-right: 0 !important
+            p 
+               color: rgb(0, 0, 0)
+               font-size: 35px
+               font-weight: 600
+               line-height: 38px
+               margin-bottom: 20px
+            span 
+               color: rgb(0, 0, 0)
+               font-size: 20px
+               font-weight: 400
+               line-height: 28px
+            a 
+               margin-top: auto
+               font-size: 22px
+               width: 308.49px
+               height: 74.4px
+            img 
+               position: absolute
+               bottom: 121px
+               right: 13px
+.how 
+   padding: 200px 0 170px 
+   &__wrap 
+      position: relative
+   &__box 
+      margin-top: 70px
+   &__bird 
+      position: absolute
+      right: -54px
+      top: -402px
+      z-index: 1
+   &__item 
+      padding: 48px 50px 
+      border-radius: 50px
+      background: rgb(211, 228, 255)
+      overflow: hidden
+      display: flex
+      margin-bottom: 30px
+      align-items: center
+      span 
+         color: rgb(174, 86, 209)
+         font-size: 45px
+         font-weight: 400
+         line-height: 38px
+         margin-right: 80px
+      p 
+         color: rgb(0, 0, 0)
+         font-size: 25px
+         font-weight: 400
+         line-height: 32px
+         width: 100%
+         max-width: 1091px
+      &:nth-child(2n)
+         background: rgb(238, 224, 247)
+.membership 
+   margin-bottom: 100px
+   .ser__star
+      top: -137px
+      right: 38%
+   &__box 
+      justify-content: space-between
+      flex-wrap: wrap 
+   &__item 
+      width: 49.5%
+      padding: 40px
+      border-radius: 32px
+      margin-bottom: 20px
+      background: rgb(255, 255, 255)
+      h3 
+         margin-top: 0
+         margin-bottom: 74px
+         font-size: 45px
+         font-weight: 600
+         line-height: 54px
+         letter-spacing: -1.62px
+         font-family: 'Museo Sans Cyrl 700'
+      a 
+         width: 308.49px
+         height: 74.4px
+         font-size: 22px
+   &__row 
+      align-items: center
+      margin-bottom: 30px
+      p 
+         color: rgb(5, 32, 62)
+         font-size: 63.38px
+         font-weight: 600
+         line-height: 76.8px
+         letter-spacing: -1.92px
+         font-family: 'Museo Sans Cyrl 700'
+         span 
+            position: relative
+            color: rgb(5, 32, 62)
+            font-size: 26.29px
+            font-weight: 400
+            line-height: 21px
+            letter-spacing: -0.53px
+            top: -8px
+            left: -4px
+         &:first-child
+            margin-right: 124px
+         &:nth-child(2)
+            color: rgb(5, 32, 62)
+            font-size: 45px
+            font-weight: 600
+            line-height: 76.8px
+            letter-spacing: -1.92px
+            img 
+               width: 25px   
+.tele 
+   background: rgb(238, 224, 247)
+   padding: 80px 0
+   margin-bottom: 100px
+   &__wrap 
+      position: relative
+   &__star 
+      position: absolute
+      top: -74px
+      left: -76px
+   &__row 
+      padding-left: 40px
+      align-items: flex-start
+      img 
+         margin-right: 93px
+   &__content 
+      width: 100%
+      max-width: 58.85%
+      h2 
+         margin-bottom: 38px
+      p 
+         color: rgb(5, 32, 62)
+         font-size: 23.81px
+         font-weight: 400
+         line-height: 28.8px
+         letter-spacing: -0.48px
+         margin-bottom: 28px
+      a 
+         width: 308.49px
+         height: 74.4px
+         font-size: 22px
+.faq 
+   background: rgb(238, 224, 247)
+   padding: 150px 0 120px
+   margin-top: 48px
+   .panel__info
+      font-weight: 400
+      font-size: 25px
+      line-height: 32px
+      color: #000000
+      margin-bottom: 25px
+      &:last-child
+         margin-bottom: 0
+   &__wrap 
+      position: relative
+   &__top 
+      justify-content: space-between
+      align-items: center
+      margin-bottom: 100px
+      p 
+         color: rgb(5, 32, 62)
+         font-size: 23.81px
+         font-weight: 400
+         line-height: 28.8px
+         letter-spacing: -0.48px
+         width: 100%
+         max-width: 730px 
+         text-align: right
+         a 
+            color: rgb(5, 32, 62)
+            text-decoration: underline
+            &:hover 
+               color: $vio
+   &__star1 
+      position: absolute
+      top: -107px
+      right: 45%
+   .cost__bird 
+      bottom: -585px
+      pointer-events: none
+      left: -150px
+      z-index: 1
+.accordeon
+   padding: 0
+   margin: 0
+   border: none 
+   width: 100%
+   .accordeon__button 
+      width: 100%
+      height: 160px
+      border-radius: 50px
+      background: rgb(255, 255, 255)
+      border: 1px solid white
+      transition: 0.5s
+      padding: 57px 100px 50px 202px
+      color: rgb(2, 1, 1)
+      font-size: 25px
+      font-weight: 400
+      display: flex
+      align-items: center
+      line-height: 32px
+      &:hover 
+         border: 1px solid $vio
+   .accordeon__item
+      margin-bottom: 30px
+   .accordeon__button:after
+      right: inherit
+      background: url(/img/card1/plus.svg) no-repeat !important
+      width: 89px
+      left: 34px
+      height: 89px
+      top: 50%
+      bottom: inherit
+      margin-top: -45px
+   .accordeon__button.active:after
+      background: url(/img/card1/minus.svg) no-repeat !important
+   .panel__text
+      list-style-type: none
+      padding-top: 0px
+      max-width: 100%
+      margin-top: 40px
+      margin-left: 201px
+      margin-bottom: 20px
+.sub3
+   .btn 
+      font-size: 22px
+      width: 308.49px
+      height: 74.4px
+      margin-top: 30px
+   .sub__wrap
+      position: relative
+      z-index: 4
+.now 
+   padding: 83px 0 0
+   margin: 100px auto
+   background: url(/img/card1/bg2.png) no-repeat center center / cover
+   &__wrap 
+      position: relative
+   &__star 
+      position: absolute
+      top: -25px
+      right: -62px
+   &__star2
+      position: absolute
+      bottom: 41px
+      right: 31%
+   &__row 
+      align-items: flex-start
+      justify-content: space-between
+      img 
+         margin-top: -60px
+         position: relative
+         z-index: 3
+   &__content
+      width: 100%
+      max-width: 65%
+      h2 
+         color: rgb(255, 255, 255)
+         font-size: 121.52px
+         font-weight: 600
+         line-height: 103.7px
+         letter-spacing: -3.66px
+         margin-bottom: 44px
+      p 
+         color: rgb(255, 255, 255)
+         font-size: 31.88px
+         font-weight: 400
+         line-height: 36px
+         letter-spacing: -0.64px
+         margin-bottom: 40px
+      a 
+         font-size: 22px
+         width: 308.49px
+         height: 74.4px
+.ten 
+   .header__pic
+      right: 0
+   .header__star
+      right: 34px
+      top: 285px
+   h1 
+      line-height: 111.7px
+.go 
+   margin-top: 200px
+   background: rgb(238, 224, 247)
+   padding: 104px 0 
+   &__box 
+      align-items: center
+      justify-content: space-between
+      h2 
+         width: 100%
+         max-width: 55%
+   &__text 
+      width: 100%
+      max-width: 39.12%
+      p 
+         color: rgb(5, 32, 62)
+         font-size: 23.81px
+         font-weight: 400
+         line-height: 28.8px
+         letter-spacing: -0.48px
+         margin-bottom: 25px
+         &:last-child
+            margin-bottom: 0
+.how-ten 
+   .how__bird
+      right: -20px
+      top: -161px
+   .how__area
+      margin-top: 180px
+      align-items: flex-start
+      justify-content: space-between
+   .how__text 
+      width: 46.56%
+      p 
+         font-size: 23.81px
+         font-weight: 400
+         line-height: 32px
+         letter-spacing: -0.48px
+         margin-bottom: 25px
+         &:last-child
+            margin-bottom: 0
+         a 
+            color: $vio
+            text-decoration: underline
+            &:hover 
+               color: #000
+.theme 
+   background: rgb(238, 224, 247)
+   padding: 150px 0
+   &__wrap 
+      position: relative
+   &__bird 
+      position: absolute
+      top: -483px
+      right: 37px
+   &__star1 
+      position: absolute
+      top: -455px
+      right: -37px
+   &__star2
+      position: absolute
+      top: -91px
+      right: 46%
+   .how__item
+      background: rgb(255, 255, 255)
+      p
+         color: rgb(0, 0, 0)
+         font-size: 35px
+         font-weight: 600
+         line-height: 44px
+         font-family: 'Museo Sans Cyrl 700'
+         width: 100%
+         max-width: 405px
+         margin-right: 60px
+      small 
+         color: rgb(0, 0, 0)
+         font-size: 25px
+         font-weight: 400
+         line-height: 32px
+         opacity: 0.7
+         width: 100%
+         max-width: 50.2%
+      &:nth-child(2n)
+         background: rgb(174, 86, 209)
+         span, small, p 
+            color: white
+.items 
+   padding: 200px 0
+   .faq__star1
+      right: 37%
+   &__wrap 
+      position: relative
+   h2 
+      span 
+         position: relative
+         left: -7px
+   &__row 
+      justify-content: space-between
+      flex-wrap: wrap 
+   &__block 
+      width: 24%
+      height: 309px
+      border-radius: 50px
+      background: rgb(211, 228, 255)
+      transition: 0.5s 
+      margin-bottom: 20px
+      padding: 30px 30px 40px 40px
+      display: flex
+      flex-direction: column 
+      align-items: flex-start
+      &:hover 
+         background: $vio
+         p 
+            color: white
+      img 
+         margin-left: auto
+         display: block
+      p 
+         margin-top: auto
+         transition: 0.5s 
+         font-family: 'Museo Sans Cyrl 700'
+         color: rgb(0, 0, 0)
+         font-size: 30px
+         font-weight: 600
+         line-height: 44px
+.wrap 
+   position: relative
+.area 
+   background: url(/img/bg8.png) no-repeat center center / cover
+   padding: 80px 0
+   background-position: -339px 0px
+   margin-bottom: 150px
+   &__wrap 
+      position: relative
+      h2 
+         color: rgb(255, 255, 255)
+         font-size: 121.52px
+         font-weight: 600
+         line-height: 103.7px
+         letter-spacing: -3.66px
+         margin-bottom: 50px
+         width: 100%
+         max-width: 66%
+      p 
+         color: rgb(255, 255, 255)
+         font-size: 31.88px
+         font-weight: 400
+         line-height: 36px
+         letter-spacing: -0.64px
+         margin-bottom: 30px
+         width: 100%
+         max-width: 60%
+         &:last-child
+            margin-bottom: 0
+   &__star1 
+      position: absolute
+      right: 33%
+      bottom: 66px
+      width: 116px
+   &__star2
+      position: absolute
+      top: -19px
+      right: -37px
+      z-index: 2
+   &__pic
+      position: absolute
+      top: 0
+      right: 0
+.how-ten2 
+   padding-bottom: 80px
+   .how__item p
+      font-size: 35px
+      line-height: 40px
+   .faq__star1 
+      top: -60px
+      right: 56%
+   .how__bird
+      right: -64px
+      top: 51px
+.how-ten
+   .how__item p
+      font-size: 35px
+      line-height: 40px
+.header-about 
+   background: transparent
+   overflow: visible
+   .nav__list li .get__box
+      top: 101%
+   .get__box:after
+      top: -53px
+   .header__wrap
+      padding-bottom: 90px
+      margin-top: 40px
+   h1 
+      color: #05203E
+   .nav 
+      background: linear-gradient(90deg, #0F6EAF 0%, #6C1299 100%)
+      border-radius: 50px
+      padding: 21px 0
+   .bread 
+      margin-bottom: 36px
+      a, p 
+         color: #000 
+         opacity: 0.7
+         &:after 
+            color: #000
+            opacity: 0.7
+      a:hover 
+         color: $vio
+.items-about
+   padding-bottom: 100px
+   .faq__star1
+      right: 0
+   h2 span
+      left: 0
+.why__row_about
+   margin-bottom: 100px
+.contacts 
+   padding-bottom: 100px
+   &__box 
+      justify-content: space-between
+   &__block 
+      position: relative
+      width: 49.45%
+      border-radius: 24.49px
+      padding: 28px 50px 60px 
+      background: url(/img/bg7.png) no-repeat center center / cover
+      display: flex 
+      flex-direction: column
+      align-items: flex-start
+   &__bird 
+      width: 380px
+      position: absolute
+      bottom: 35px
+      right: 39px
+   &__title 
+      color: rgb(255, 255, 255)
+      font-size: 44.9px
+      font-weight: 600
+      line-height: 44.9px
+      letter-spacing: -1.35px
+      font-family: 'Museo Sans Cyrl 700'
+      margin-bottom: 20px
+   &__sub 
+      margin-bottom: 35px
+      color: rgba(255, 255, 255, 0.5)
+      font-size: 22.45px
+      font-weight: 400
+      line-height: 28.57px
+      letter-spacing: -0.45px
+   &__item 
+      margin-bottom: 40px
+      a 
+         display: block
+         color: rgb(255, 255, 255)
+         font-size: 22.45px
+         font-weight: 600
+         line-height: 24.49px
+         letter-spacing: -0.45px
+         font-family: 'Museo Sans Cyrl 700'
+         width: max-content
+         &:hover 
+            color: $vio
+      p 
+         color: rgba(255, 255, 255, 0.5)
+         font-size: 18.37px
+         font-weight: 400
+         line-height: 19.39px
+   &__mail 
+      margin-top: auto
+      color: rgb(255, 255, 255)
+      font-size: 22.45px
+      font-weight: 600
+      font-family: 'Museo Sans Cyrl 700'
+      line-height: 24.49px
+      letter-spacing: -0.45px
+      display: block
+      &:hover 
+         color: $vio
+   &__content 
+      width: 49.45%
+      & > div 
+         width: 100%
+         padding: 28px 48px 44px 
+         border-radius: 24.49px
+         overflow: hidden
+         &:first-child
+            background: rgb(238, 224, 247)
+            margin-bottom: 20px
+         &:last-child
+            background: rgb(211, 228, 255)
+            .contacts__mail
+               color: rgb(5, 32, 62)
+               margin-top: 40px
+               &:hover 
+                  color: $vio
+         .contacts__title 
+            color: rgb(5, 32, 62)
+         .contacts__sub
+            color: rgba(5, 32, 62, 0.5)
+   &__social
+      a 
+         display: flex
+         align-items: center
+         justify-content: center
+         border-radius: 50% 
+         width: 48px
+         height: 48px
+         background: white
+         margin-right: 12px
+         &:last-child
+            margin-right: 0
+         &:hover 
+            background: $vio
+            .svg
+               path 
+                  fill: white
+.text 
+   padding-bottom: 100px
+   &__box 
+      justify-content: space-between
+      align-items: center
+      margin-top: 100px
+   &__content 
+      width: 100%
+      max-width: 45.4%
+      p 
+         color: rgb(5, 32, 62)
+         font-size: 23.81px
+         font-weight: 400
+         line-height: 28.8px
+         letter-spacing: -0.48px
+      .text__name 
+         color: rgb(5, 32, 62)
+         font-size: 40px
+         font-family: 'Museo Sans Cyrl 700'
+         font-weight: 600
+         line-height: 28.8px
+         letter-spacing: -0.48px
+         margin-bottom: 20px
+      a 
+         display: block
+         margin-top: 10px
+         color: rgb(174, 86, 209)
+         font-size: 23.81px
+         font-weight: 600
+         line-height: 28.8px
+         letter-spacing: -0.48px
+         text-decoration-line: underline
+         &:hover 
+            color: #000
+   &__txt 
+      margin-bottom: 45px
+      p 
+         margin-bottom: 25px
+         color: rgb(5, 32, 62)
+         font-size: 23.81px
+         font-weight: 400
+         line-height: 28.8px
+         letter-spacing: -0.48px
+         &:last-child
+            margin-bottom: 0
+.art 
+   padding: 40px 0 100px
+   &__wrap 
+      width: 100%
+      max-width: 69% 
+      margin: 0 auto
+   article 
+      width: 100%
+      box-sizing: border-box
+      display: block
+      .video__wrap
+         margin-bottom: 50px
+      .video__pic
+         height: 100% !important
+         margin: 0
+      h1 
+         color: rgb(5, 32, 62)
+         font-size: 63.75px
+         font-weight: 600
+         line-height: 64px
+         letter-spacing: -1.92px
+         margin-bottom: 50px
+      strong
+         color: rgb(5, 32, 62)
+         font-size: 35px
+         font-family: 'Museo Sans Cyrl 700'
+         font-weight: 600
+         line-height: 38px
+         margin-bottom: 30px
+         display: block
+      p 
+         margin-bottom: 25px
+         color: rgb(5, 32, 62)
+         font-size: 20px
+         font-weight: 400
+         line-height: 28px
+      img 
+         object-fit: cover 
+         height: auto
+         overflow: hidden
+         border-radius: 50px
+         margin: 30px 0 50px
+         width: 100%
+      ul
+         padding-left: 15px
+         margin-bottom: 50px
+         li 
+            display: flex
+            align-items: flex-start
+            color: rgb(5, 32, 62)
+            font-size: 20px
+            font-weight: 400
+            line-height: 28.8px
+            letter-spacing: -0.48px
+            margin-bottom: 9px
+            &:before 
+               content: ""
+               display: inline-block
+               border-radius: 50% 
+               flex: 1 0 auto 
+               background: rgb(5, 32, 62)
+               margin-right: 10px
+               width: 6px
+               height: 6px
+               max-width: 6px
+               position: relative
+               top: 10px
+      table 
+         border-collapse: separate
+         width: 100%
+         border-spacing: 0
+         margin: 50px 0
+         td
+            color: rgb(5, 32, 62)
+            font-size: 20px
+            font-weight: 400
+            line-height: 28px
+            background: rgb(211, 228, 255)
+            padding: 27px 30px
+         thead
+            td
+               color: rgb(5, 32, 62)
+               font-size: 20px
+               font-weight: 600
+               line-height: 28px
+               padding-top: 0
+               padding-bottom: 20px
+               background: transparent
+         tbody 
+            tr 
+               td 
+                  &:first-child
+                     border-radius: 20px 0 0 20px
+                  &:last-child
+                     border-radius: 0 20px 20px 0px
+               &:nth-child(2n)
+                  td 
+                     background: transparent
+      ol 
+         padding-left: 25px
+         margin-bottom: 50px
+         li 
+            color: rgb(5, 32, 62)
+            font-size: 20px
+            font-weight: 400
+            line-height: 28.8px
+            letter-spacing: -0.48px
+            margin-bottom: 9px
+      blockquote
+         box-sizing: border-box
+         margin-bottom: 50px
+         padding-left: 33px
+         padding-top: 13px
+         padding-bottom: 13px
+         color: rgb(5, 32, 62)
+         font-size: 20px
+         font-weight: 400
+         line-height: 28px
+         border-left: 4px solid rgb(174, 86, 209)
+      .accordeon .accordeon__button
+         background: rgb(238, 224, 247)
+      .accordeon__panel, .accordeon__panel2
+         margin-bottom: 0 !important
+         padding-left: 0 !important
+      .accordeon .panel__text
+         display: block !important
+         &::before
+            display: none
+   .bread 
+      margin-bottom: 36px
+      a, p 
+         color: #000 
+         opacity: 0.7
+         &:after 
+            color: #000
+            opacity: 0.7
+      a:hover 
+         color: $vio
+
+.popup-call__box.pop
+   width: 1196px
+   margin-left: -598px
+   .order__block
+      background: transparent
+      padding: 20px
+      max-width: 100% !important
+   .order__flex 
+      flex-direction: initial
+      input 
+         width: 48.8%
+         &:first-child
+            width: 100%
+      .option
+         width: 48.8%
+         position: relative
+         z-index: 20
+      .selectCF
+         height: 56px
+         width: 100%
+         padding-left: 20px
+         border: 1px solid #E0E0E0
+         border-radius: 8px
+         margin-bottom: 16px
+         box-sizing: border-box
+         background: #f4f5fb
+      .selectCF .searchCF input
+         display: none !important
+      .selectCF .titleCF
+         font-size: 20px
+         font-weight: 400
+         box-sizing: border-box
+         line-height: 24px
+         color: black
+         padding-top: 15px
+      .selectCF .arrowCF
+         background: url(/img/down2.svg) no-repeat !important
+         width: 19px
+         height: 13px
+         right: 13px
+         top: 23px
+      .onCF li ul
+         left: -8px
+         padding-top: 10px
+         border-radius: 8px
+         top: 61px
+         background: #f4f5fb
+      .selectCF li ul li
+         color: #000
+         padding-left: 10px
+         &:hover 
+            color: $vio
+         &:first-child
+            display: none !important
+.header-lite 
+   background: url(/img/bg12.png) no-repeat center center / cover
+   .bread
+      margin-bottom: 200px
+   .header__pic
+      top: -88px
+   .header__star
+      top: -6px
+.study-lite
+   margin-top: 100px
+.lite 
+   background: #EEE0F7
+   margin: 200px auto 100px
+   padding: 100px 0
+   &__box 
+      img 
+         position: absolute
+         right: 28px
+         top: -277px
+   &__content 
+      width: 100%
+      max-width: 850px 
+      h2 
+         margin-bottom: 35px
+      p
+         font-weight: 400
+         font-size: 23.8125px
+         line-height: 29px
+         letter-spacing: -0.48px
+         color: #05203E
+         width: 100%
+         max-width: 770px
+         margin-bottom: 35px
+      a 
+         width: 308px
+         height: 74px
+         font-size: 22px
+.whom 
+   margin: 100px auto
+   .lite__star 
+      right: 74px
+      top: -155px
+      position: absolute
+   &__box 
+      margin-top: 67px
+      justify-content: space-between
+      flex-wrap: wrap 
+   &__item 
+      background: url(/img/bg14.png) no-repeat center center / cover
+      overflow: hidden
+      position: relative
+      padding: 50px
+      border-radius: 32px
+      height: 477px
+      width: 40.8%
+      margin-bottom: 20px
+      p 
+         color: rgb(255, 255, 255)
+         font-size: 30px
+         font-weight: 600
+         line-height: 30px
+         font-family: 'Museo Sans Cyrl 700'
+      &:first-child, &:last-child
+         width: 57.9%
+      &:first-child
+         .whom__star 
+            top: 183px
+            left: 142px
+      &:nth-child(2)
+         .whom__star 
+            top: 129px
+            left: inherit
+            right: 20px
+      &:nth-child(3)
+         .whom__star 
+            top: 221px
+            left: 48px
+      &:nth-child(4)
+         .whom__star 
+            top: inherit
+            bottom: 50px
+            left: 90px
+   &__star
+      position: absolute
+      top: 0
+      left: 0
+   &__pic 
+      position: absolute
+      bottom: -12px
+      right: 0
+.cost-lite
+   .cost__content
+      p
+         font-weight: 400
+         font-size: 23.8125px
+         line-height: 29px
+         letter-spacing: -0.48px
+         color: #05203E
+.header-express 
+   background: url(/img/bg.png) no-repeat center center / cover
+   .header__star2
+      position: absolute
+      bottom: 38px
+      right: 0
+   .header__pic
+      top: -4px
+      right: 74px
+   .header__star
+      top: 31px
+      right: 379px
+.header__star2
+   position: absolute
+   bottom: 38px
+   right: 0    
+.lite2 
+   margin-top: 100px
+   .lite__content
+      max-width: 952px
+      margin-left: auto
+   .lite__content p
+      max-width: 833px
+   .lite__box img 
+      right: inherit
+      top: -268px
+      left: -14px
+.header-help 
+   margin-bottom: 100px
+   .bread 
+      margin-bottom: 140px
+   .header__star
+      right: 58%
+      top: 55px
+   .header__pic
+      top: -57px
+      right: 51px
+.whom2
+   margin-top: 0
+   margin-bottom: 200px
+.theme2 
+   margin-bottom: 200px
+   .theme__bird
+      top: -346px 
+      z-index: 0
+   .how__box
+      position: relative
+      z-index: 2
+   .how__item:last-child
+      margin-bottom: 0
+.option
+   width: 48.8%
+   position: relative
+   z-index: 20
+   .selectCF
+      height: 56px
+      width: 100%
+      padding-left: 20px
+      border: 1px solid #E0E0E0
+      border-radius: 8px
+      margin-bottom: 16px
+      box-sizing: border-box
+      background: #f4f5fb
+   .selectCF .searchCF input
+      display: none !important
+   .selectCF .titleCF
+      font-size: 20px
+      font-weight: 400
+      box-sizing: border-box
+      line-height: 24px
+      color: black
+      padding-top: 15px
+   .selectCF .arrowCF
+      background: url(/img/down2.svg) no-repeat !important
+      width: 19px
+      height: 13px
+      right: 13px
+      top: 23px
+   .onCF li ul
+      left: -8px
+      padding-top: 10px
+      border-radius: 8px
+      top: 61px
+      background: #f4f5fb
+   .selectCF li ul li
+      color: #000
+      padding-left: 10px
+      &:hover 
+         color: $vio
+      &:first-child
+         display: none !important
+.lite3
+   margin-top: 0
+   .lite__box img
+      width: 628px
+      right: -21px
+      top: -381px
+   .lite__content
+      max-width: 1003px
+.faq2 
+   margin-bottom: 100px
+.teach 
+   margin-bottom: 70px
+   .arrows
+      top: 0
+   h2 
+      margin-bottom: 60px
+   .swiper22
+      overflow: hidden
+      .swiper-slide
+         background: transparent
+         padding: 0
+         border-radius: 0px
+         strong 
+            margin-bottom: 20px
+            display: block
+            font-weight: 600
+            font-family: 'Museo Sans Cyrl 700'
+            font-size: 35px
+            line-height: 38px
+            color: #05203E
+         a 
+            display: block
+            font-weight: 600
+            font-family: 'Museo Sans Cyrl 700'
+            font-size: 25px
+            line-height: 110%
+            color: #AE56D1
+            border-bottom: 1px solid #AE56D1
+            &:hover 
+               color: $blue
+               border-bottom: 1px solid $blue
+         ul
+            padding-left: 15px
+            margin-bottom: 30px
+            li 
+               display: flex
+               align-items: flex-start
+               color: rgb(5, 32, 62)
+               font-size: 20px
+               font-weight: 400
+               line-height: 28.8px
+               letter-spacing: -0.48px
+               margin-bottom: 9px
+               &:before 
+                  content: ""
+                  display: inline-block
+                  border-radius: 50% 
+                  flex: 1 0 auto 
+                  background: rgb(5, 32, 62)
+                  margin-right: 10px
+                  width: 6px
+                  height: 6px
+                  max-width: 6px
+                  position: relative
+                  top: 10px
+         span 
+            font-weight: 600
+            font-size: 20px
+            line-height: 100%
+            color: rgba(5, 32, 62, 0.5)
+            display: block
+            margin-bottom: 30px
+            border-bottom: 1px solid rgba(5, 32, 62, 0.5)
+      .video__wrap
+         height: 392px
+         border-radius: 20px
+         width: 100%
+         margin-bottom: 20px
+         .svg 
+            margin-top: -41px
+            margin-left: -41px
+         &:after 
+            display: none
+.header-online 
+   background: url(/img/bg12.png) no-repeat center center / cover
+   .header__star 
+      right: 38%
+      top: 144px
+   .header__wrap
+      margin-top: 0
+   .bread
+      margin-bottom: 180px
+   .order__form 
+      border-radius: 50px
+      background: rgb(255, 255, 255)
+      padding: 40px
+      width: 100%
+      box-sizing: border-box
+      max-width: 520px
+      span 
+         color: rgb(102, 102, 102)
+         font-size: 14px
+         font-weight: 400
+         line-height: 18px 
+         a 
+            color: rgb(102, 102, 102)
+            text-decoration: underline
+            &:hover 
+               color: $vio
+      h2 
+         color: rgb(5, 32, 62)
+         font-size: 40px
+         line-height: 38px
+         text-align: center
+         font-family: 'Museo Sans Cyrl 900'
+         margin-bottom: 40px
+         font-weight: 700
+      .order__flex input
+         width: 100%
+.arg 
+   background: url(/img/card1/bg2.png) no-repeat center center / cover
+   padding: 100px 0
+   margin-top: 70px
+   .now__star
+      right: -100px
+   .theme__bird 
+      top: -483px
+      right: -121px
+      z-index: -1
+   .now__star2
+      bottom: 0
+   &__box 
+      justify-content: space-between
+      align-items: center
+   &__content 
+      width: 100%
+      max-width: 64.5%
+      h2 
+         color: rgb(255, 255, 255)
+         font-size: 121.52px
+         font-weight: 600
+         line-height: 103.7px
+         letter-spacing: -3.66px
+         margin-bottom: 120px
+         font-family: 'Museo Sans Cyrl 700'
+      p 
+         color: rgb(255, 255, 255)
+         font-size: 31.88px
+         font-weight: 400
+         line-height: 36px
+         letter-spacing: -0.64px
+         margin-bottom: 30px
+      a 
+         width: 308.49px
+         font-size: 22px
+         text-align: center
+   &__info
+      div 
+         color: rgb(255, 255, 255)
+         font-size: 20.17px
+         font-weight: 600
+         font-family: 'Museo Sans Cyrl 700'
+         line-height: 25.69px
+         letter-spacing: -0.42px
+         margin-bottom: 20px
+         align-items: center
+         justify-content: center
+         width: max-content
+         height: 50px
+         padding: 0px 36px
+         border-radius: 89.63px
+         background: linear-gradient(90.00deg, rgb(213, 81, 217),rgb(231, 78, 35) 100%)
+         &:last-child
+            margin-bottom: 0
+.whom3 
+   margin-top: 200px
+   .whom__star
+      left: inherit
+      right: 0
+      top: -160px
+.how2
+   padding-top: 0
+   .how__star 
+      position: absolute
+      top: -27px
+      right: 29%
+   .how__bird 
+      position: absolute
+      right: -78px
+      top: 116px
+   .how__link 
+      width: 790px
+      height: 74px
+      margin: 80px auto 0
+      font-size: 22px
+.direction 
+   background: rgb(238, 224, 247)
+   padding: 150px 0 120px
+   margin: 200px auto 100px 
+   &__row 
+      justify-content: flex-start
+      margin-top: 70px
+      flex-wrap: wrap 
+   &__item 
+      border-radius: 32px
+      background: rgb(255, 255, 255)
+      padding: 40px
+      overflow: hidden
+      width: 32.4%
+      margin-right: 20px
+      margin-bottom: 20px
+      display: flex
+      flex-direction: column 
+      align-items: flex-start
+      &:nth-child(3n)
+         margin-right: 0
+      p 
+         color: rgb(0, 0, 0)
+         font-size: 35px
+         font-weight: 600
+         font-family: 'Museo Sans Cyrl 700'
+         line-height: 38px
+         margin-bottom: 30px
+      ul
+         padding-left: 15px
+         margin-bottom: 30px
+         width: 100%
+         max-width: 351px
+         li 
+            display: flex
+            align-items: flex-start
+            color: rgb(5, 32, 62)
+            font-size: 20px
+            font-weight: 400
+            line-height: 28.8px
+            letter-spacing: -0.48px
+            margin-bottom: 9px
+            &:before 
+               content: ""
+               display: inline-block
+               border-radius: 50% 
+               flex: 1 0 auto 
+               background: rgb(5, 32, 62)
+               margin-right: 10px
+               width: 6px
+               height: 6px
+               max-width: 6px
+               position: relative
+               top: 10px
+      a 
+         margin-top: auto
+         width: 308.49px
+         font-size: 22px
+   &__bird 
+      position: absolute
+      bottom: -96px
+      right: -102px
+      width: 628px
+      pointer-events: none
+.add 
+   margin: 100px auto 
+   width: 100%
+   &__row 
+      justify-content: space-between
+      margin: 70px 0
+   &__item 
+      display: flex
+      flex-direction: column 
+      align-items: flex-start
+      border-radius: 32px
+      background: rgb(211, 228, 255)
+      height: 525px
+      padding: 50px 40px 40px
+      width: 32.5%
+      p 
+         margin-bottom: 50px
+         font-size: 35px
+         font-family: 'Museo Sans Cyrl 700'
+         font-weight: 600
+         line-height: 38px
+      small 
+         color: rgb(0, 0, 0)
+         font-size: 20px
+         font-weight: 400
+         line-height: 28px
+      a 
+         margin-top: auto
+         font-size: 22px
+         width: 308.49px
+   .sub__text
+      margin-left: 0
+      margin-bottom: 30px
+   .sub
+      margin: 0 !important
+      a 
+         width: 515px
+         font-size: 22px
+   .sub__title
+      margin-bottom: 20px
+   .sub__star 
+      right: 9%
+      top: 17px
+.partners 
+   padding: 100px 0 200px
+   .swiper6 
+      margin-top: 70px
+      .swiper-slide 
+         height: 248px
+         box-sizing: border-box
+         border: 5px solid rgb(174, 86, 209)
+         border-radius: 50px
+         background: rgb(255, 255, 255)
+         display: flex
+         align-items: center
+         transition: 0.5s
+         justify-content: center
+         img 
+            max-width: 95%
+            max-height: 95%
+            object-fit: contain
+         &:hover 
+            border: 5px solid $blue
+.teach2
+   margin-top: 100px
+   padding-bottom: 0
+   margin-bottom: 100px
+   .why__row
+      margin-bottom: 0
+      margin-top: 200px
+.header__btns 
+   margin-top: 40px
+   a 
+      width: 308px
+      font-size: 22px
+      &:first-child
+         margin-right: 20px
+      &:nth-child(2)
+         background: transparent
+         border: 2px solid #FFFFFF
+         color: white 
+         &:hover 
+            background: $vio
+            border: 2px solid $vio
+            color: white
+.header-business
+   .bread 
+      margin-bottom: 90px
+   .header__pic
+      top: -21px
+      right: -48px
+   .header__star
+      right: 48%
+      top: 38px
+.love2 
+   padding-top: 0
+   .par__bird
+      top: -220px
+   .love__item 
+      width: 49%      
+      height: 414px
+      display: flex
+      flex-direction: column 
+      align-items: flex-start      
+      h3 
+         font-size: 40px
+      p 
+         font-size: 22px
+         width: 100%
+         max-width: 495px
+         margin-top: auto
+      img 
+         right: 71px !important
+         bottom: inherit !important
+         left: inherit !important
+         top: 72px !important
+      &:first-child
+         background: #B8E9E1
+      &:nth-child(2)
+         background: #F7EDAE
+.lite4 
+   margin: 100px auto 200px
+   .lite__box img
+      width: 666px
+      top: -280px
+      left: -83px
+.lite5
+   margin: 0 auto
+   .btn2 
+      width: 408px
+      font-size: 22px
+.cost-business 
+   margin-top: 200px
+   margin-bottom: 100px
+   .cost__bird 
+      bottom: -334px
+      left: 0
+.order-last
+   margin-bottom: 100px
+.header-blog
+   overflow: visible
+   .header__wrap
+      padding-bottom: 0
+   .get__box:after
+      top: -53px
+   .nav__list li .get__box
+      top: 101%
+.blog 
+   padding-bottom: 200px
+   h1
+      font-size: 121px
+      font-weight: 600
+      position: relative
+      font-family: 'Museo Sans Cyrl 700'
+      span 
+         color: rgba(5, 32, 62, 0.3)
+         font-size: 50px
+         font-weight: 600
+         font-family: 'Museo Sans Cyrl 700'
+   &__box 
+      justify-content: flex-start
+      flex-wrap: wrap
+   &__btn 
+      width: 276px
+      font-size: 22px
+      margin: 30px auto 0
+   &__item 
+      display: flex
+      flex-direction: column 
+      align-items: flex-start
+      margin-right: 20px
+      margin-bottom: 20px
+      border-radius: 50px
+      background: rgb(234, 235, 241)
+      padding: 40px
+      width: 32.4%
+      h2 
+         color: rgb(5, 32, 62)
+         font-size: 35px
+         font-weight: 600
+         font-family: 'Museo Sans Cyrl 700'
+         line-height: 38px
+         margin-bottom: 20px
+         width: 100%
+         max-width: 368px 
+      p 
+         color: rgb(5, 32, 62)
+         font-size: 20px
+         font-weight: 400
+         line-height: 28px
+         margin-bottom: 40px
+      img 
+         width: 100%
+         object-fit: cover 
+         height: 275px
+         border-radius: 40px
+         margin-bottom: 28px
+         margin-top: auto
+      div 
+         align-items: center
+         width: 100%
+         display: flex
+         justify-content: space-between
+         span 
+            color: rgb(174, 86, 209)
+            font-size: 21.83px
+            font-weight: 600
+            line-height: 26.4px
+            letter-spacing: -0.32px
+            font-family: 'Museo Sans Cyrl 700'
+            display: block
+            width: max-content
+            transition: 0.5s
+            border-bottom: 1px solid rgb(174, 86, 209)
+         small 
+            color: rgba(9, 9, 9, 0.25)
+            font-size: 21.83px
+            font-weight: 600
+            font-family: 'Museo Sans Cyrl 700'
+            line-height: 26.4px
+            letter-spacing: -0.32px
+      &:nth-child(3n)
+         margin-right: 0
+      &:hover 
+         background: #D3E4FF
+         span 
+            color: #2B87DE
+            border-bottom: 1px solid #2B87DE
+   .rev__top
+      padding-right: 0
+      .tabs__nav
+         width: max-content
+         height: auto
+         background: transparent
+         a 
+            width: 194px
+            height: 74px
+            font-size: 22px
+            background: rgba(174, 86, 209, 0.15)
+            color: rgb(174, 86, 209)
+            margin-right: 15px
+            &:hover 
+               background: #D3E4FF
+               color: black
+   .rev__top .tabs__nav .tabs__btn_active
+      background: $vio !important
+      color: white !important
+   .option
+      width: max-content
+      display: flex
+      align-items: center
+      padding-right: 35px
+      p 
+         font-size: 21.83px
+         font-weight: 600
+         font-family: 'Museo Sans Cyrl 700'
+         line-height: 26.4px
+         letter-spacing: -0.32px
+         color: rgba(5, 32, 62, 0.3)
+         white-space: nowrap
+         margin-right: 7px
+   .option .selectCF
+      margin: 0
+      padding: 0
+      border: none 
+      background: transparent
+      height: auto
+   .option .selectCF .titleCF
+      padding-top: 0
+      font-size: 21.83px
+      font-weight: 600
+      font-family: 'Museo Sans Cyrl 700'
+      line-height: 26.4px
+      letter-spacing: -0.32px
+      color: rgba(5, 32, 62, 1)
+   .option .selectCF .arrowCF
+      right: -32px
+      top: 9px
+   .option .onCF li ul 
+      left: -19px
+      top: 43px
+      padding: 20px
+   .selectCF li ul li
+      font-size: 21.83px
+      padding-top: 15px
+      padding-bottom: 15px
+      height: auto
+      padding-left: 0
+   .option .selectCF li ul li:first-child
+      display: block !important
+.blog-item 
+   &__back 
+      align-items: center
+      color: rgb(5, 32, 62)
+      font-size: 21.83px
+      font-weight: 600
+      line-height: 26.4px
+      font-family: 'Museo Sans Cyrl 700'
+      letter-spacing: -0.32px
+      margin-bottom: 40px
+      .svg 
+         margin-right: 12px
+      &:hover 
+         color: $vio
+   &__time 
+      color: rgb(174, 86, 209)
+      font-size: 21.83px
+      font-family: 'Museo Sans Cyrl 700'
+      font-weight: 600
+      line-height: 26.4px
+      letter-spacing: -0.32px
+      margin-bottom: 30px
+   article
+      img 
+         margin-top: 0
+      .video__wrap
+         margin-top: 50px
+   &__info 
+      margin-top: 200px
+      position: relative
+      h2 
+         text-align: center
+      .swiper7 
+         overflow: hidden
+         margin-top: 50px
+         .swiper-slide
+            .blog__item
+               width: 100%
+               h2 
+                  text-align: left
+   &__link 
+      position: absolute
+      right: 0
+      top: 33px
+      color: rgb(174, 86, 209)
+      font-size: 21.83px
+      font-family: 'Museo Sans Cyrl 700'
+      font-weight: 600
+      line-height: 26.4px
+      letter-spacing: -0.32px
+      border-bottom: 1px solid rgb(174, 86, 209)
+      &:hover 
+         color: #000
+         border-bottom: 1px solid #000
+.header-luchik
+   background: url(/img/bg12.png) no-repeat center center / cover
+   margin-bottom: 200px
+   .header__content
+      .btn
+         width: 308px
+         font-size: 22px
+         margin-top: 30px
+   &__row 
+      width: 100%
+      max-width: 726px 
+      justify-content: space-between
+      flex-wrap: wrap
+   &__item 
+      height: 195px
+      border-radius: 30px
+      background: rgb(234, 235, 241)
+      margin-bottom: 18px
+      width: 48.7%
+      padding: 30px
+      position: relative
+      &:last-child
+         display: flex
+         align-items: center
+         justify-content: start
+         p 
+            color: rgb(5, 32, 62)
+            font-size: 19px
+            font-weight: 400
+            line-height: 28px
+            margin-bottom: 0
+      img 
+         position: absolute
+         right: 25px
+         bottom: 24px
+      p 
+         color: rgb(5, 32, 62)
+         font-family: 'Museo Sans Cyrl 700'
+         font-size: 29px
+         font-weight: 600
+         line-height: 38px
+         margin-bottom: 17px
+      ul
+         padding-left: 10px
+         margin-bottom: 0px
+         width: 100%
+         max-width: 351px
+         li 
+            display: flex
+            align-items: flex-start
+            color: rgb(5, 32, 62)
+            font-size: 20px
+            font-weight: 400
+            line-height: 28.8px
+            letter-spacing: -0.48px
+            margin-bottom: 0px
+            &:before 
+               content: ""
+               display: inline-block
+               border-radius: 50% 
+               flex: 1 0 auto 
+               background: rgb(5, 32, 62)
+               margin-right: 10px
+               width: 6px
+               height: 6px
+               max-width: 6px
+               position: relative
+               top: 12px
+   .header__star 
+      right: -65px
+      top: -48px
+   .header__star2 
+      bottom: 49px
+      right: 43%
+.theme3
+   margin-bottom: 200px
+   .theme__star2
+      right: 0
+      top: -136px
+   &__links 
+      justify-content: center
+      width: 100%
+      max-width: 1238px 
+      display: flex
+      margin: 113px auto -178px
+      a 
+         width: 48%
+         height: 74px
+         font-size: 22px
+         border: none
+         &:first-child
+            margin-right: 50px
+            &:after 
+               background: linear-gradient(90.00deg, rgb(121, 43, 222),rgb(43, 135, 222) 100%),linear-gradient(180.00deg, rgb(193, 110, 226),rgb(164, 73, 200) 100%),linear-gradient(88.85deg, rgb(255, 147, 39) 7.173%,rgb(255, 106, 43) 99.772%)
+         &:nth-child(2)
+            &:after 
+               background: linear-gradient(90.00deg, rgb(121, 43, 222),rgb(43, 135, 222) 100%),linear-gradient(88.85deg, rgb(255, 147, 39) 7.173%,rgb(255, 106, 43) 99.772%)
+.prize 
+   &__row 
+      justify-content: space-between
+      margin-top: 60px
+   &__star 
+      position: absolute
+      bottom: 40px
+      left: 149px
+   &__pic 
+      position: absolute
+      right: 54px
+      bottom: 24px
+   &__item 
+      position: relative
+      border-radius: 32px
+      height: 477px
+      padding: 50px
+      p 
+         color: rgb(255, 255, 255)
+         font-size: 30px
+         font-weight: 600
+         font-family: 'Museo Sans Cyrl 700'
+         line-height: 30px
+      &:first-child
+         background: url(/img/bg14.png) no-repeat center center / cover
+         width: 57.7%
+      &:nth-child(2)
+         background: url(/img/bg10.png) no-repeat center center / cover
+         width: 41%
+         .prize__star
+            bottom: 79px
+         .prize__pic
+            right: -145px
+            bottom: -50px
+   &__info 
+      justify-content: space-between
+      align-items: center
+      margin: 200px 0 130px
+   &__content 
+      width: 100%
+      max-width: 47.5% 
+      span 
+         display: block
+         color: rgb(5, 32, 62)
+         font-size: 23.81px
+         font-family: 'Museo Sans Cyrl 900'
+         font-weight: 700
+         line-height: 28.8px
+         letter-spacing: -0.48px
+         margin-bottom: 20px
+      p 
+         color: rgb(5, 32, 62)
+         font-size: 23.81px
+         font-weight: 400
+         line-height: 28.8px
+         letter-spacing: -0.48px
+.faq-first 
+   background: rgb(174, 86, 209)
+   padding: 100px 0
+   .accordeon
+      border-radius: 50px
+      position: relative
+      z-index: 6
+      background: rgb(255, 255, 255)
+      padding: 60px
+      .accordeon__button
+         background: rgb(211, 228, 255)
+      .accordeon__item:last-child
+         margin-bottom: 0
+   &__content 
+      width: 100%
+      max-width: 57%
+      h2 
+         color: rgb(255, 255, 255)
+         margin-bottom: 50px
+         span 
+            display: inline-flex
+            border-radius: 5000px
+            background: rgba(255, 255, 255, 0.3)
+            width: 241px
+            height: 116px
+            align-items: center
+            justify-content: center
+            margin-right: 5px
+   &__text 
+      p
+         color: rgb(255, 255, 255)
+         font-size: 30px
+         font-weight: 600
+         font-family: 'Museo Sans Cyrl 700'
+         line-height: 28.8px
+         letter-spacing: -0.48px
+         margin-bottom: 50px
+         text-align: left
+         max-width: 100%
+         &:last-child
+            margin-bottom: 0
+         a 
+            color: white 
+            text-decoration: underline
+            &:hover 
+               color: $blue
+   .faq__top
+      margin-bottom: 50px
+      align-items: flex-start
+   &__data 
+      display: flex
+      align-items: center
+      justify-content: center
+      width: 495px
+      height: 116px
+      border: 2px solid rgb(255, 255, 255)
+      border-radius: 5000px
+      color: rgb(255, 255, 255)
+      font-size: 40px
+      font-weight: 600
+      line-height: 64px
+      font-family: 'Museo Sans Cyrl 700'
+      letter-spacing: -1.92px
+   &__pic 
+      position: absolute
+      right: 56px
+      top: 89px
+      z-index: 0
+.faq-second
+   background: rgb(43, 135, 222)
+   .faq__top
+      margin-bottom: 140px
+   .faq-first__text
+      p:first-child
+         margin-bottom: 70px
+   .faq-first__pic
+      top: 9px
+   .accordeon .accordeon__button:after
+      background: url(/img/card1/plus2.svg) no-repeat !important
+   .accordeon .accordeon__button.active:after
+      background: url(/img/card1/minus2.svg) no-repeat !important
+.faq-third
+   margin-bottom: 100px 
+   background: rgb(75, 14, 198)
+   .accordeon .accordeon__button:after
+      background: url(/img/card1/plus3.svg) no-repeat !important
+   .accordeon .accordeon__button.active:after
+      background: url(/img/card1/minus3.svg) no-repeat !important
+   .faq__top
+      margin-bottom: 100px
+.partners2
+   padding-bottom: 100px
+.header-library
+   background: url(/img/bg12.png) no-repeat center center / cover
+   .bread 
+      margin-bottom: 150px
+   .header__pic
+      top: -3px
+      right: 92px
+      z-index: 3
+   .header__star
+      right: 36%
+      top: 0
+   .header__star2
+      width: 116px
+.library 
+   padding: 200px 0 150px
+   .rev__top .tabs__nav a
+      width: max-content
+      padding: 0 60px
+   &__item 
+      width: 32%
+      padding: 30px
+      height: 257px
+      border-radius: 50px
+      background: rgb(211, 228, 255)
+      margin-right: 20px
+      margin-bottom: 20px
+      &:nth-child(3n)
+         margin-right: 0
+      &:nth-child(2n)
+         background: rgb(238, 224, 247)
+   &__top 
+      align-items: center
+      margin-bottom: 50px
+      justify-content: space-between
+      p 
+         color: rgb(0, 0, 0)
+         font-family: 'Museo Sans Cyrl 700'
+         font-size: 30px
+         font-weight: 600
+         line-height: 44px
+   &__row 
+      justify-content: space-between
+      a 
+         display: flex
+         align-items: center
+         justify-content: center
+         width: 67.68px
+         height: 67.68px
+         border-radius: 17.58px
+         background: rgb(255, 255, 255)
+         color: rgb(0, 0, 0)
+         font-size: 21.97px
+         font-family: 'Museo Sans Cyrl 700'
+         font-weight: 600
+         line-height: 38.67px
+         &:hover 
+            background: $vio
+            color: white
+.faq6
+   margin: 100px auto
+.row 
+   padding: 100px 0
+   &__box 
+      justify-content: space-between
+   &__item
+      width: 47%
+      display: flex
+      align-items: flex-start
+      flex-direction: column
+      height: 532px
+      border-radius: 50px
+      position: relative
+      padding: 70px 40px 30px
+      background: url(/img/library/bg.png) no-repeat center center / cover
+      h3 
+         margin-top: 0
+         margin-bottom: 40px
+         color: rgb(255, 255, 255)
+         font-size: 53.79px
+         font-weight: 600
+         line-height: 54px
+         letter-spacing: -1.62px
+         font-family: 'Museo Sans Cyrl 700'
+      &:nth-child(2)
+         .row__star 
+            top: inherit
+            bottom: 30px
+   &__star 
+      pointer-events: none 
+      position: absolute
+      top: 30px
+      right: 20px
+   &__text
+      max-width: 428px 
+      width: 100%
+      color: rgb(255, 255, 255)
+      font-size: 25.9px
+      font-weight: 400
+      line-height: 31.2px
+      letter-spacing: -0.52px
+      margin-bottom: 40px
+   &__sum 
+      color: rgb(255, 255, 255)
+      font-size: 63.38px
+      font-weight: 600
+      font-family: 'Museo Sans Cyrl 700'
+      line-height: 76.8px
+      letter-spacing: -1.92px
+      margin-top: auto
+      margin-bottom: 40px
+      span 
+         color: rgb(255, 255, 255)
+         font-size: 26.29px
+         font-weight: 400
+         font-family: 'Museo Sans Cyrl 500', sans-serif
+         line-height: 21px
+         letter-spacing: -0.53px
+         position: relative
+         left: -9px
+         top: -6px
+   &__links 
+      width: 100%
+      a 
+         width: 45%
+         font-size: 22px
+         height: 74.4px
+         &:nth-child(2)
+            margin-left: 10px
+            background: transparent
+            border: 2px solid rgb(255, 255, 255)
+            color: white 
+            &:hover 
+               background: $vio
+               border: 2px solid $vio
+               color: white
+.bird-library
+   .study__star2
+      z-index: 2
+      right: inherit
+      bottom: inherit
+      left: -86px
+      top: 314px
+   .study__star3
+      z-index: 2
+      position: absolute
+      left: 19%
+      top: -45px
+   .bird__content
+      margin-top: 50px
+   .bird__box img
+      padding-left: 50px
+.header-course
+   background: url(/img/bg.png) no-repeat center center / cover
+   .header__wrap
+      align-items: flex-end
+   .header__star2
+      position: absolute
+      top: 0
+      right: -50px
+      z-index: 2
+   .header__star3
+      position: absolute
+      bottom: 0
+      right: 30%
+      z-index: 2
+   .header__star
+      top: 24px
+.sub-course
+   margin: 0 auto 100px !important
+   .sub__text
+      margin-left: 0px
+      margin-bottom: 40px
+   .sub__wrap
+      padding: 30px 40px
+      a 
+         width: 512px
+         font-size: 22px
+   .sub__star 
+      right: 44%
+      top: 141px
+   .theme__bird 
+      top: -252px
+      right: 37px
+.items-course
+   padding-top: 0px
+   padding-bottom: 100px
+   .faq__star1
+      right: 0
+.years 
+   padding: 200px 0
+   .arrows 
+      margin-top: 50px
+   .swiper8 
+      overflow: hidden
+      margin-top: 70px
+      .swiper-slide 
+         height: 343px
+         border-radius: 50px
+         background: rgb(184, 233, 225)
+         padding: 50px
+         display: flex
+         flex-direction: column 
+         align-items: flex-start
+         position: relative
+         p 
+            color: rgb(0, 0, 0)
+            font-size: 40px
+            font-family: 'Museo Sans Cyrl 700'
+            font-weight: 600
+            line-height: 45px
+         span 
+            display: block
+            margin-top: auto
+            color: rgb(0, 0, 0)
+            font-size: 23.81px
+            font-weight: 400
+            line-height: 28.8px
+            letter-spacing: -0.48px
+            width: 100%
+            max-width: 450px
+         .header__star2
+            right: 134px
+         &:nth-child(2n)
+            background: rgb(247, 237, 174)
+            .header__star2
+               bottom: 115px
+               right: 30px
+.format 
+   padding: 100px 0
+   &__row 
+      margin-top: 100px
+      justify-content: space-between
+   &__item 
+      position: relative
+      width: 32%
+      height: 444px
+      border-radius: 32px
+      background: rgb(247, 237, 174)
+      padding: 40px
+      display: flex
+      flex-direction: column 
+      align-items: flex-start
+      p
+         color: rgb(5, 32, 62)
+         font-size: 35px
+         font-family: 'Museo Sans Cyrl 700'
+         font-weight: 600
+         line-height: 38px
+         margin-bottom: 40px
+      ul
+         padding-left: 10px
+         margin-bottom: 0px
+         width: 100%
+         li 
+            display: flex
+            align-items: flex-start
+            color: rgb(5, 32, 62)
+            font-size: 20px
+            font-weight: 400
+            line-height: 28.8px
+            letter-spacing: -0.48px
+            margin-bottom: 0px
+            &:before 
+               content: ""
+               display: inline-block
+               border-radius: 50% 
+               flex: 1 0 auto 
+               background: rgb(5, 32, 62)
+               margin-right: 10px
+               width: 6px
+               height: 6px
+               max-width: 6px
+               position: relative
+               top: 12px
+      a 
+         margin-top: auto
+         width: 308.49px
+         font-size: 22px
+      img 
+         position: absolute
+         top: -106px
+         right: 16px
+      &:nth-child(2)
+         background: rgb(184, 233, 225)
+      &:nth-child(3)
+         background: rgb(227, 227, 252)
+.order-course
+   margin-bottom: 100px
+.love-course
+   .love__item
+      display: flex
+      flex-direction: column 
+      align-items: flex-start
+      p
+         width: 100%
+         max-width: 373px
+      a 
+         margin-top: auto
+         display: block
+         width: max-content
+         border-bottom: 1px solid rgb(174, 86, 209)
+         color: rgb(174, 86, 209)
+         font-size: 21.83px
+         font-family: 'Museo Sans Cyrl 700'
+         font-weight: 600
+         line-height: 26.4px
+         letter-spacing: -0.32px
+         &:hover 
+            color: #000
+            border-bottom: 1px solid #000
+.sub-course2
+   .sub__wrap
+      background: url(/img/course/bg.png) no-repeat center center / cover
+   .sub__text 
+      width: 100%
+      max-width: 50%
+   .sub__title
+      margin-bottom: 25px
+   .theme__bird
+      top: -125px
+      right: 105px
+.rev-course 
+   .study__bird
+      position: absolute
+      right: -107px
+      top: -534px
+      z-index: 2
+      pointer-events: none
+.header-teachers
+   background: url(/img/bg12.png) no-repeat center center / cover
+   .bread
+      margin-bottom: 220px
+   .header__pic
+      top: -71px
+   .header__star
+      right: 70%
+      top: -14px
+   .header__star2 
+      bottom: 311px
+      right: 40%
+      width: 116px
+.theme-teachers 
+   margin-bottom: 100px
+   .theme__star2
+      right: 100px
+   .par__bird
+      top: inherit
+      bottom: -624px
+      right: 205px
+      z-index: 1
+   .theme__area
+      justify-content: space-between
+      flex-wrap: wrap 
+      margin-top: 70px
+      div 
+         width: 32.5%
+         padding: 40px
+         display: flex
+         flex-direction: column 
+         align-items: flex-start
+         height: 444px
+         border-radius: 32px
+         background: rgb(255, 255, 255)
+         margin-bottom: 20px
+         position: relative
+         img 
+            position: absolute
+            bottom: 136px
+            right: 36px
+         h3
+            margin-bottom: 20px
+            color: rgb(0, 0, 0)
+            font-size: 35px
+            font-weight: 600
+            font-family: 'Museo Sans Cyrl 700'
+            line-height: 38px
+            margin-top: 0
+         p 
+            color: rgb(0, 0, 0)
+            font-size: 20px
+            font-weight: 400
+            line-height: 28px
+         a 
+            margin-top: auto
+            width: 308.49px
+            font-size: 22px
+   .theme__area_2
+      div 
+         height: 373px
+      small
+         display: flex
+         align-items: center
+         justify-content: center
+         margin-top: auto
+         border-radius: 50% 
+         width: 87px
+         height: 87px
+         border-radius: 43.5px
+         background: rgb(174, 86, 209)
+         color: rgb(255, 255, 255)
+         font-size: 39.19px
+         font-weight: 600
+         font-family: 'Museo Sans Cyrl 700'
+         line-height: 29.78px
+.row-teachers
+   margin-bottom: 100px
+   .row__item
+      width: 48%
+      height: 635px
+   .row__text
+      margin-bottom: 25px
+      max-width: 532px
+.header-neuro
+   background: url(/img/bg12.png) no-repeat center center / cover
+   .bread
+      margin-bottom: 150px
+   .header__pic
+      top: 9px
+   .header__star
+      right: -71px
+      top: -30px
+   .header__star2 
+      bottom: 106px
+      right: 36%
+      width: 116px
+.lite-neuro
+   .lite__box img
+      width: 697px
+      right: 0
+      top: -401px
+.lic-neuro
+   padding: 0 0 200px
+   .lic__info
+      max-width: 909px
+.theme-neuro
+   margin-bottom: 100px
+   &__box 
+      justify-content: space-between
+      flex-wrap: wrap 
+      margin-top: 100px
+   &__item 
+      width: 100%
+      padding: 40px 50px 
+      border-radius: 50px
+      background: rgb(255, 255, 255)
+      margin-bottom: 30px
+      display: flex
+      align-items: center
+      height: 160px
+      span 
+         margin-right: 80px
+         display: block
+         color: rgb(174, 86, 209)
+         font-size: 45px
+         font-weight: 400
+         line-height: 38px
+      p 
+         color: rgb(0, 0, 0)
+         font-size: 35px
+         font-family: 'Museo Sans Cyrl 700'
+         font-weight: 600
+         line-height: 44px
+      &:nth-child(2n)
+         background: rgb(174, 86, 209)
+         p, span 
+            color: white
+   &__side 
+      width: 49%
+      &:nth-child(2)
+         .theme-neuro__item
+            background: rgb(174, 86, 209)
+            p, span 
+               color: white
+            &:nth-child(2n)
+               background: white 
+               span 
+                  color: rgb(174, 86, 209)
+               p 
+                  color: #000
+.theme-neuro2 
+   .theme__star2 
+      top: -91px
+      right: 57px
+   &__text 
+      margin-top: 50px
+      width: 100%
+      color: rgb(5, 32, 62)
+      font-size: 23.81px
+      font-weight: 400
+      line-height: 28.8px
+      letter-spacing: -0.48px
+      max-width: 1020px
+      margin-bottom: 37px
+   &__row
+      justify-content: space-between
+      flex-wrap: wrap 
+      div 
+         width: 32.5%
+         height: 264px
+         border-radius: 32px
+         background: rgb(255, 255, 255)
+         margin-bottom: 20px
+         padding: 50px 40px 
+         span 
+            color: rgb(174, 86, 209)
+            font-size: 35px
+            font-weight: 600
+            line-height: 38px
+            font-family: 'Museo Sans Cyrl 700'
+            margin-bottom: 50px
+            display: block
+         p 
+            color: rgb(0, 0, 0)
+            font-size: 35px
+            font-weight: 600
+            font-family: 'Museo Sans Cyrl 700'
+            line-height: 38px
+.prog 
+   padding: 200px 0 100px
+   .row__star
+      top: -69px
+   &__row 
+      justify-content: space-between
+      flex-wrap: wrap 
+      margin-top: 100px
+   &__item 
+      width: 24%
+      overflow: hidden
+      margin-bottom: 20px
+      height: 379px
+      border-radius: 50px
+      background: rgb(211, 228, 255)
+      padding: 30px
+      img 
+         margin-bottom: 17px
+         margin-left: auto
+         display: block
+      p 
+         font-size: 30px
+         font-family: 'Museo Sans Cyrl 700'
+         font-weight: 600
+         line-height: 44px
+         margin-bottom: 20px
+         span 
+            color: rgb(174, 86, 209)
+      small 
+         color: rgb(5, 32, 62)
+         font-size: 20px
+         font-weight: 400
+         line-height: 28.8px
+         letter-spacing: -0.48px
+.row-neuro
+   background: rgb(238, 224, 247)
+   padding: 150px 0
+   margin: 100px auto 
+   .row__box 
+      margin-top: 100px
+   .row__item
+      width: 49%
+      display: flex
+      flex-direction: column 
+      align-items: flex-start
+      height: auto
+      padding: 40px
+      div 
+         display: flex
+         align-items: center
+         justify-content: center
+         position: relative
+         width: 347.21px
+         height: 74.4px
+         border-radius: 5000px
+         background: rgb(43, 135, 222)
+         color: rgb(255, 255, 255)
+         font-size: 21.83px
+         font-family: 'Museo Sans Cyrl 700'
+         font-weight: 600
+         line-height: 26.4px
+         letter-spacing: -0.32px
+         margin: 0 auto
+         margin-top: -69px
+         top: -69px
+      ul
+         padding-left: 10px
+         margin-bottom: 40px
+         width: 100%
+         width: 100%
+         max-width: 672px
+         li 
+            display: flex
+            align-items: flex-start
+            color: rgb(255, 255, 255)
+            font-size: 25.9px
+            font-weight: 400
+            line-height: 31.2px
+            letter-spacing: -0.52px
+            margin-bottom: 5px
+            &:before 
+               content: ""
+               display: inline-block
+               border-radius: 50% 
+               flex: 1 0 auto 
+               background: white
+               margin-right: 10px
+               width: 6px
+               height: 6px
+               max-width: 6px
+               position: relative
+               top: 12px
+   .row__sum
+      margin-top: auto
+      margin-bottom: 40px
+      img 
+         margin-left: 10px
+   &__btn 
+      font-size: 22px
+      width: 308.49px
+   .row__star 
+      top: inherit !important
+      width: 107px
+      bottom: 90px !important
+      right: 95px
+.teach-neuro
+   margin-bottom: 0
+.lic-neuro2
+   padding-bottom: 100px
+.faq-neuro 
+   margin-bottom: 100px
+.header-emotional
+   .bread 
+      margin-bottom: 170px
+   .header__star3
+      position: absolute
+      right: 3px
+      bottom: 76px
+      z-index: 2
+   .header__star 
+      right: 68%
+      top: 45px
+   .header__pic
+      top: 49px
+      right: 22px
+   .header__star2 
+      bottom: inherit
+      right: 45%
+      top: 0
+.love-emotional 
+   padding: 200px 0
+   .study__bird
+      position: absolute
+      right: 18px
+      top: -315px
+.theme
+   .theme__area_emotional
+      div 
+         height: 525px
+         padding-top: 50px
+         h3 
+            margin-bottom: 60px
+         img 
+            bottom: 30px
+            right: 30px
+         ul
+            padding-left: 10px
+            margin-bottom: 0px
+            width: 100%
+            max-width: 301px
+            li 
+               display: flex
+               align-items: flex-start
+               color: rgb(5, 32, 62)
+               font-size: 20px
+               font-weight: 400
+               line-height: 28.8px
+               letter-spacing: -0.48px
+               margin-bottom: 0px
+               &:before 
+                  content: ""
+                  display: inline-block
+                  border-radius: 50% 
+                  flex: 1 0 auto 
+                  background: rgb(5, 32, 62)
+                  margin-right: 10px
+                  width: 6px
+                  height: 6px
+                  max-width: 6px
+                  position: relative
+                  top: 12px
+.change 
+   padding: 100px 0
+   .par__bird
+      transform: scaleX(-1)
+   &__box 
+      margin-top: 100px
+   &__row 
+      justify-content: space-between
+      margin-bottom: 20px
+      position: relative
+      z-index: 3
+      &:last-child
+         margin-bottom: 0
+   &__item 
+      width: 49.3%
+      border-radius: 50px
+      background: rgb(211, 228, 255)
+      justify-content: space-between
+      align-items: center
+      padding: 60px 50px
+      &:nth-child(2)
+         background: rgb(238, 224, 247)
+         span 
+            color: rgb(174, 86, 209)
+   &__content 
+      width: 100%
+      max-width: 73% 
+      span 
+         display: block
+         color: rgb(43, 135, 222)
+         font-size: 25px
+         font-weight: 600
+         line-height: 38px
+         font-family: 'Museo Sans Cyrl 700'
+         margin-bottom: 40px
+      p 
+         color: rgb(0, 0, 0)
+         font-family: 'Museo Sans Cyrl 700'
+         font-size: 35px
+         font-weight: 600
+         line-height: 44px
+.text-emotional
+   padding: 100px 0
+   .text__name
+      margin-bottom: 0
+.groups 
+   .theme-neuro2__row
+      justify-content: flex-start
+      flex-wrap: wrap 
+      div 
+         width: 32%
+         border-radius: 32px
+         background: rgb(211, 228, 255)
+         height: 357px
+         margin-right: 20px
+         margin-bottom: 20px
+         display: flex
+         flex-direction: column 
+         align-items: flex-start
+         &:nth-child(3n)
+            margin-right: 0
+         span 
+            color: rgb(43, 135, 222)
+            margin-bottom: 30px
+         small 
+            color: rgb(5, 32, 62)
+            font-size: 20px
+            font-weight: 400
+            line-height: 28.8px
+            letter-spacing: -0.48px
+            margin-top: auto
+            display: block
+   .faq__top
+      margin-bottom: 50px
+   .tabs__nav 
+      width: max-content
+      border-radius: 64px
+      background: rgb(244, 245, 251)
+      padding: 6px
+      height: 92px
+      display: flex
+      align-items: center
+      justify-content: flex-start
+      margin-bottom: 50px
+      a 
+         display: flex
+         align-items: center
+         justify-content: center
+         width: 239px
+         height: 80px
+         border-radius: 50px
+         color: rgb(0, 0, 0)
+         font-size: 20px
+         font-weight: 600
+         font-family: 'Museo Sans Cyrl 700'
+         line-height: 18px
+         &:hover 
+            color: $vio
+      .tabs__btn_active
+         background: linear-gradient(180.00deg, rgb(193, 110, 226),rgb(164, 73, 200) 100%),rgb(61, 59, 255)
+         color: white !important
+.how-emotional
+   .how__bird
+      z-index: -1
+      right: 0
+      top: -198px
+      width: 492px
+.teach-emotional
+   margin-bottom: 0
+.faq-emotional
+   margin: 100px auto

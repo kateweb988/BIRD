@@ -1,0 +1,23 @@
+<svg width="178" height="178" viewBox="0 0 178 178" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="89" cy="89" r="89" fill="white"/>
+<g clip-path="url(#clip0_40_82223)">
+<mask id="mask0_40_82223" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="48" y="48" width="82" height="82">
+<path d="M48 48.0006H129.048V129.049H48V48.0006Z" fill="white"/>
+</mask>
+<g mask="url(#mask0_40_82223)">
+<path d="M69.3697 59.8729H50.374C50.374 54.6274 54.6264 50.375 59.8719 50.375C65.1174 50.375 69.3697 54.6274 69.3697 59.8729ZM69.3697 59.8729C69.3697 79.1305 59.8719 97.9188 59.8719 117.176C59.8719 122.422 64.1242 126.674 69.3697 126.674C74.6152 126.674 78.8675 122.422 78.8675 117.176H126.673" stroke="#AE56D1" stroke-width="4.86289" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M107.679 117.176C107.679 97.9186 117.177 79.1303 117.177 59.8726C117.177 54.6271 112.925 50.3748 107.679 50.3748H59.8735" stroke="#AE56D1" stroke-width="4.86289" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M126.674 117.176C126.674 122.422 122.421 126.674 117.176 126.674" stroke="#AE56D1" stroke-width="4.86289" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M69.3696 126.674H117.175" stroke="#AE56D1" stroke-width="4.86289" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M78.8672 69.3706H106.885" stroke="#AE56D1" stroke-width="4.86289" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M76.6401 78.8687H104.984" stroke="#AE56D1" stroke-width="4.86289" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M74.4146 88.3662H102.635" stroke="#AE56D1" stroke-width="4.86289" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M72.0645 97.8643H100.409" stroke="#AE56D1" stroke-width="4.86289" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_40_82223">
+<rect width="81.0485" height="81.0485" fill="white" transform="translate(48 48)"/>
+</clipPath>
+</defs>
+</svg>
